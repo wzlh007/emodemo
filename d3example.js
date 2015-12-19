@@ -3,25 +3,25 @@
     "use strict";
 
     // Various accessors that specify the four dimensions of data to visualize.
-    function x(d) { return d.sampledWeiboCount; }
-    function y(d) { return d.sampledBiFollow; }
-    function radius(d) { return d.sampledUserCount; }
-    function color(d) { return d.gridID; }
-    function key(d) { return d.gridID; }
+    function x(d) { return d.income; }
+    function y(d) { return d.lifeExpectancy; }
+    function radius(d) { return d.population; }
+    function color(d) { return d.region; }
+    function key(d) { return d.name; }
 
     // Chart dimensions.
-    var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 55},
+    var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
         width = 960 - margin.right,
         height = 500 - margin.top - margin.bottom;
 
     // Various scales. These domains make assumptions of data, naturally.
-    var xScale = d3.scale.linear().domain([1,250]).range([0,width]),
-        yScale = d3.scale.sqrt().domain([0,20539]).range([height, 0]),
-        radiusScale = d3.scale.pow().exponent(.5),
+    var xScale = d3.scale.log().domain([300, 1e5]).range([0, width]),
+        yScale = d3.scale.linear().domain([10, 85]).range([height, 0]),
+        radiusScale = d3.scale.sqrt().domain([0, 5e8]).range([0, 40]),
         colorScale = d3.scale.category20c();
 
     // The x & y axes.
-    var xAxis = d3.svg.axis().orient("bottom").scale(xScale).ticks(12),
+    var xAxis = d3.svg.axis().orient("bottom").scale(xScale).ticks(12, d3.format(",d")),
         yAxis = d3.svg.axis().scale(yScale).orient("left");
 
     // Create the SVG container and set the origin.
@@ -48,7 +48,7 @@
         .attr("text-anchor", "end")
         .attr("x", width)
         .attr("y", height - 6)
-        .text("网格内微博数");
+        .text("income per capita, inflation-adjusted (dollars)");
 
     // Add a y-axis label.
     svg.append("text")
@@ -57,7 +57,7 @@
         .attr("y", 6)
         .attr("dy", ".75em")
         .attr("transform", "rotate(-90)")
-        .text("网格内平均互粉数");
+        .text("life expectancy (years)");
 
     // Add the year label; the value is set on transition.
     var label = svg.append("text")
@@ -68,7 +68,7 @@
         .text(1800);
 
     // Load the data.
-    d3.json("demoStatistic2.json", function(rows) {
+    d3.json("nations_geo.json", function(nations) {
 
       // A bisector since many nation's data is sparsely-defined.
       var bisect = d3.bisector(function(d) { return d[0]; });
@@ -85,29 +85,27 @@
         return radius(b) - radius(a);
       }
       // Interpolates the dataset for the given (fractional) year.
-/*       function interpolateData(year) {
-        sharedObject.yearData = rows.map(function(d) {
+      function interpolateData(year) {
+        sharedObject.yearData = nations.map(function(d) {
           return {
-            name: d.gridID,
-            gridID: d.gridID,
-            sampledWeiboCount: interpolateValues(d.sampledWeiboCount, year),
-            sampledUserCount: interpolateValues(d.sampledUserCount, year),
-            sampledBiFollow: interpolateValues(d.sampledBiFollow, year),
+            name: d.name,
+            region: d.region,
+            income: interpolateValues(d.income, year),
+            population: interpolateValues(d.population, year),
+            lifeExpectancy: interpolateValues(d.lifeExpectancy, year),
             lat: d.lat,
             lon: d.lon
           };
         });
 
         return sharedObject.yearData;
-      } */
+      }
 
       // Add a dot per nation. Initialize the data at 1800, and set the colors.
-	  var dates = ["2015-12-09","2015-12-10","2015-12-11","2015-12-12","2015-12-13","2015-12-14","2015-12-15"];
       var dot = svg.append("g")
           .attr("class", "dots")
         .selectAll(".dot")
-          //.data(interpolateData(1800))
-          .data(dates)
+          .data(interpolateData(1800))
         .enter().append("circle")
           .attr("class", "dot")
           .style("fill", function(d) { return colorScale(color(d)); })
@@ -127,10 +125,10 @@
 
       // Tweens the entire chart by first tweening the year, and then the data.
       // For the interpolated data, the dots and label are redrawn.
-/*       function tweenYear() {
+      function tweenYear() {
         var year = d3.interpolateNumber(1800, 2009);
         return function(t) { displayYear(year(t)); };
-      } */
+      }
 
       // Updates the display to show the specified year.
       function displayYear(year) {
@@ -142,7 +140,7 @@
       window.displayYear = displayYear;
 
       // Finds (and possibly interpolates) the value for the specified year.
-/*       function interpolateValues(values, year) {
+      function interpolateValues(values, year) {
         var i = bisect.left(values, year, 0, values.length - 1),
             a = values[i];
         if (i > 0) {
@@ -151,7 +149,7 @@
           return a[1] * (1 - t) + b[1] * t;
         }
         return a[1];
-      } */
+      }
 
       sharedObject.dispatch.on("nationMouseover.d3", function(nationObject) {
           dot.style("fill", function(d) {

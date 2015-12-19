@@ -204,8 +204,8 @@
 			var outlineMaterial = new Cesium.PolylineOutlineMaterialProperty();
 			//线框颜色因国家名称而变化，用colorScale实现
 			outlineMaterial.color = new Cesium.ConstantProperty(Cesium.Color.fromCssColorString(this._colorScale(row.gridID)));
-			outlineMaterial.outlineColor = new Cesium.ConstantProperty(new Cesium.Color(0.0, 0.0, 0.0, 0.0));
-			outlineMaterial.outlineWidth = new Cesium.ConstantProperty(0.0);
+			outlineMaterial.outlineColor = new Cesium.ConstantProperty(new Cesium.Color(0.0, 0.0, 0.0, 1.0));
+			outlineMaterial.outlineWidth = new Cesium.ConstantProperty(2.0);
 			polyline.material = outlineMaterial;
 			polyline.width = userCount;
 			polyline.followSurface = new Cesium.ConstantProperty(false);
@@ -290,18 +290,18 @@
     };
 
 	//没改完，与D3相关，先放着
-/*     weiboDataSource.prototype.update = function(time) {
+     weiboDataSource.prototype.update = function(time) {
         Cesium.JulianDate.toGregorianDate(time, gregorianDate);
-        var currentDate = gregorianDate.year + gregorianDate.month / 12;
-        if (currentDate !== this._year && typeof window.displayYear !== 'undefined'){
-            window.displayYear(currentDate);
-            this._year = currentDate;
+        var currentYear = gregorianDate.year + gregorianDate.month / 12;
+        if (currentYear !== this._year && typeof window.displayYear !== 'undefined'){
+            window.displayYear(currentYear);
+            this._year = currentYear;
 
             this._setInfoDialog(time);
         }
 
         return true;
-    }; */
+    };
 
     $("#radio").buttonset();
     $("#radio").css("font-size", "12px");
@@ -335,12 +335,13 @@
 
     // setup clockview model
     viewer.clock.clockRange = Cesium.ClockRange.LOOP_STOP;
+    //viewer.clock.clockRange = Cesium.ClockRange.CLAMPED ;
     viewer.clock.startTime = Cesium.JulianDate.fromIso8601("2015-12-09");
     viewer.clock.currentTime = Cesium.JulianDate.fromIso8601("2015-12-09");
-    viewer.clock.stopTime = Cesium.JulianDate.fromIso8601("2015-12-17");
+    viewer.clock.stopTime = Cesium.JulianDate.fromIso8601("2015-12-16");
     viewer.clock.clockStep = Cesium.ClockStep.SYSTEM_CLOCK_MULTIPLIER;
     //viewer.clock.multiplier = yearPerSec * 5;
-    viewer.clock.multiplier = dayPerSec * 5;
+    viewer.clock.multiplier = dayPerSec * 0.5;
     //viewer.animation.viewModel.setShuttleRingTicks([yearPerSec, yearPerSec*5, yearPerSec*10, yearPerSec*50]);
     viewer.animation.viewModel.setShuttleRingTicks([dayPerSec, dayPerSec*5, dayPerSec*10, dayPerSec*50]);
 
@@ -352,21 +353,63 @@
     viewer.animation.viewModel.timeFormatter = function(date, viewModel) {
         return '';
     };
-    viewer.scene.skyBox.show = false;
+    viewer.scene.skyBox.show = true;
     viewer.scene.sun.show = false;
     viewer.scene.moon.show = false;
 
     viewer.scene.morphToColumbusView(5.0)
-	
-	var grid = new Cesium.GeoJsonDataSource('grid');
+    //viewer.scene.morphTo3D(5.0)
+	var promise = Cesium.GeoJsonDataSource.load('gridwithvalue.geojson');
+    promise.then(function(dataSource) {
+        viewer.dataSources.add(dataSource);
+
+        //Get the array of entities
+        var entities = dataSource.entities.values;
+        
+        //var colorHash = {};
+        for (var i = 0; i < entities.length; i++) {
+            //For each entity, create a random color based on the state name.
+            //Some states have multiple entities, so we store the color in a
+            //hash so that we use the same color for the entire state.
+            var entity = entities[i];
+            //var name = entity.name;
+            var color = fillGrid(entity.properties.restaurant);
+            console.log(color);
+            //Set the polygon material to our random color.
+            entity.polygon.material = color;
+            //Remove the outlines.
+            entity.polygon.outlineColor = Cesium.Color.ORANGERED ;
+            entity.polygon.outlineWidth = 1;
+            entity.polygon.outline = false;
+
+            //Extrude the polygon based on the state's population.  Each entity
+            //stores the properties for the GeoJSON feature it was created from
+            //Since the population is a huge number, we divide by 50.
+            //entity.polygon.extrudedHeight = entity.properties.Population / 50.0;
+        }
+    }).otherwise(function(error){
+        //Display any errrors encountered while loading.
+        window.alert(error);
+    });
+	var value2color = [[12,50],[34,47],[62,44],[97,41],[131,38],[178,35],[275,32],[448,29],[662,26],[1008,23]]
+	function fillGrid(num){
+		var i = 0;
+		for(i = 0;i < value2color.length;i++){
+			if(num < value2color[i][0]){
+				var color = Cesium.Color.fromHsl(value2color[i][1]/360, 1, 0.8-i*0.02, 1);
+				return color;
+			}
+		}
+	}
+	/* var grid = new Cesium.GeoJsonDataSource('grid');
 	grid.load('gridwithvalue.geojson',{
-		stroke: Cesium.Color.YELLOW,
-		fill: new Cesium.Color(1,1,1,0),
+		stroke: Cesium.Color.BLACK,
+		fill: new Cesium.Color(0,0,0,0.2),
 		strokeWidth: 3,
 		//markerSymbol: '?'
 	});
-	viewer.dataSources.add(grid);
-	viewer.zoomTo(grid);
+	viewer.dataSources.add(grid); */
+	viewer.zoomTo(promise);
     var demo = new weiboDataSource();
     demo.loadUrl('demoStatistic2.json');
     viewer.dataSources.add(demo);
