@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Cesium + d3 Data Visualization</title>
+    <title>VGI Data Visualization</title>
 	<script type="text/javascript" src="3rdParty/jquery-ui-1.10.3/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="3rdParty/jquery-ui-1.10.3/ui/jquery-ui.js"></script>
     <script type="text/javascript" src="3rdParty/cesium/Build/Cesium/Cesium.js"></script>
@@ -31,8 +31,13 @@
 		<input type="radio" id="weiboCount" name="weiboCountbiFollow" checked="checked"><label for="weiboCount">微博数</label>
 		<input type="radio" id="biFollow" name="weiboCountbiFollow"><label for="biFollow">平均互粉数</label>
 	</div>
+	<div id="radio2" style="position:absolute; bottom:8%; right:20%;  border-radius: 7px;">
+		<input type="radio" id="grid" name="gridpoi" checked="checked" "><label  for="grid">网格</label>
+		<input type="radio" id="restaurant" name="gridpoi" "><label for="restaurant">餐饮POI数量</label>
+		<input type="radio" id="scene" name="gridpoi" "><label  for="scene">景点POI数量</label>
+	</div>
 	<div id="chart"></div>
-	<div id="info" title="Nation Health and Wealth"></div>
+	<div id="info" title="weibo"></div>
 	<script type="text/javascript" src="d3example.js" charset="utf-8"></script>
 	<script type="text/javascript" src="globe.js" charset="utf-8"></script>
 </body>

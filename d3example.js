@@ -10,7 +10,7 @@
     function key(d) { return d.name; }
 
     // Chart dimensions.
-    var margin = {top: 19.5, right: 19.5, bottom: 19.5, left: 39.5},
+    var margin = {top: 19.5, right: 19.5, bottom: 25, left: 39.5},
         width = 960 - margin.right,
         height = 500 - margin.top - margin.bottom;
 
@@ -48,7 +48,7 @@
         .attr("text-anchor", "end")
         .attr("x", width)
         .attr("y", height - 6)
-        .text("income per capita, inflation-adjusted (dollars)");
+        .text("网格中的微博数");
 
     // Add a y-axis label.
     svg.append("text")
@@ -57,7 +57,7 @@
         .attr("y", 6)
         .attr("dy", ".75em")
         .attr("transform", "rotate(-90)")
-        .text("life expectancy (years)");
+        .text("网格中的平均互粉数");
 
     // Add the year label; the value is set on transition.
     var label = svg.append("text")
@@ -65,7 +65,7 @@
         .attr("text-anchor", "start")
         .attr("y", 28)
         .attr("x", 30)
-        .text(1800);
+        .text("12月9日");
 
     // Load the data.
     d3.json("nations_geo.json", function(nations) {
@@ -131,10 +131,10 @@
       }
 
       // Updates the display to show the specified year.
-      function displayYear(year) {
+      /* function displayYear(year) {
         dot.data(interpolateData(year), key).call(position).sort(order);
         label.text(Math.round(year));
-      }
+      } */
 
       // make displayYear global
       window.displayYear = displayYear;

@@ -1,7 +1,7 @@
 /*global sharedObject, d3*/
 
 (function() {
-    //"use strict";
+    "use strict";
     //var yearPerSec = 86400*365;
     var dayPerSec = 3600*24;
     var gregorianDate = new Cesium.GregorianDate();
@@ -307,6 +307,11 @@
     $("#radio").css("font-size", "12px");
     $("#radio").css("font-size", "12px");
     $("body").css("background-color", "black");
+	
+	$("#radio2").buttonset();
+    $("#radio2").css("font-size", "12px");
+    $("#radio2").css("font-size", "12px");
+    $("body").css("background-color", "black");
 
     $("input[name='weiboCountbiFollow']").change(function(d){
         var entities = demo.entities.values;
@@ -323,7 +328,7 @@
         }
         demo.entities.resumeEvents();
     });
-
+	
     var viewer = new Cesium.Viewer('cesiumContainer', 
             {
                 fullscreenElement : document.body,
@@ -359,66 +364,74 @@
 
     viewer.scene.morphToColumbusView(5.0)
     //viewer.scene.morphTo3D(5.0)
-	var promise = Cesium.GeoJsonDataSource.load('gridwithvalue.geojson');
-    promise.then(function(dataSource) {
-        viewer.dataSources.add(dataSource);
+	
+	var demo = new weiboDataSource();
+	demo.loadUrl('demoStatistic2.json');
+	var grid = new Cesium.GeoJsonDataSource();
+	grid.load('gridwithvalue.geojson',{
+		outlineWidth:1,
+		material: Cesium.Color.fromRgba(0,0,0,0)
+	});
+	showGrid('grid');
+	viewer.zoomTo(grid);
+	function showGrid(label){
+		viewer.dataSources.removeAll();
+		var entities = grid.entities.values;
 
-        //Get the array of entities
-        var entities = dataSource.entities.values;
-        
-        //var colorHash = {};
-        for (var i = 0; i < entities.length; i++) {
-            //For each entity, create a random color based on the state name.
-            //Some states have multiple entities, so we store the color in a
-            //hash so that we use the same color for the entire state.
-            var entity = entities[i];
-            //var name = entity.name;
-            var color = fillGrid(entity.properties.restaurant);
-            console.log(color);
-            //Set the polygon material to our random color.
-            entity.polygon.material = color;
-            //Remove the outlines.
-            entity.polygon.outlineColor = Cesium.Color.ORANGERED ;
-            entity.polygon.outlineWidth = 1;
-            entity.polygon.outline = false;
-
-            //Extrude the polygon based on the state's population.  Each entity
-            //stores the properties for the GeoJSON feature it was created from
-            //Since the population is a huge number, we divide by 50.
-            //entity.polygon.extrudedHeight = entity.properties.Population / 50.0;
-        }
-    }).otherwise(function(error){
-        //Display any errrors encountered while loading.
-        window.alert(error);
+		for (var i = 0; i < entities.length; i++) {
+			//For each entity, create a random color based on the state name.
+			//Some states have multiple entities, so we store the color in a
+			//hash so that we use the same color for the entire state.
+			var entity = entities[i];
+			//var name = entity.name;
+			var color;
+			if(label==='grid'){
+				color = Cesium.Color.fromRgba(0,0,0,0);
+				entity.polygon.outlineWidth = 1;
+				entity.polygon.outline = true;
+				entity.polygon.material = color;
+			}
+			else if(label==='restaurant'){
+				color = fillGrid(entity.properties.restaurant);
+				entity.polygon.outline = false;
+				entity.polygon.material = color;
+			}
+			else if(label == 'scene'){
+				color = fillGrid2(entity.properties.scene);
+				entity.polygon.outline = false;
+				entity.polygon.material = color;
+			}
+		}
+		viewer.dataSources.add(grid);
+		viewer.dataSources.add(demo);
+	}
+	
+	$("input[name='gridpoi']").change(function(d){
+		showGrid(d.target.id);
     });
-	var value2color = [[12,50],[34,47],[62,44],[97,41],[131,38],[178,35],[275,32],[448,29],[662,26],[1008,23]]
+	
+	var value2color = [[12,50],[34,47],[62,44],[97,41],[131,38],[178,35],[275,32],[448,29],[662,26],[1008,23]];
+	var value2color2 = [1,3,6,9,12,15,20,28,38,83];
 	function fillGrid(num){
 		var i = 0;
 		for(i = 0;i < value2color.length;i++){
-			if(num < value2color[i][0]){
+			if(num <= value2color[i][0]){
 				var color = Cesium.Color.fromHsl(value2color[i][1]/360, 1, 0.8-i*0.02, 1);
 				return color;
 			}
 		}
 	}
-	/* var grid = new Cesium.GeoJsonDataSource('grid');
-	grid.load('gridwithvalue.geojson',{
-		stroke: Cesium.Color.BLACK,
-		fill: new Cesium.Color(0,0,0,0.2),
-		strokeWidth: 3,
-		//markerSymbol: '?'
-	});
-	viewer.dataSources.add(grid); */
-	viewer.zoomTo(promise);
-    var demo = new weiboDataSource();
-    demo.loadUrl('demoStatistic2.json');
-    viewer.dataSources.add(demo);
-	//viewer.zoomTo(demo);
-	
-	//alert('haha');
-
+	function fillGrid2(num){
+		var i = 0;
+		 for(i = 0;i < value2color2.length;i++){
+			if(num < value2color2[i]){
+				var color = Cesium.Color.fromHsl(125/360, 1, 0.9-i*0.04, 1);
+				return color;
+			}
+		} 
+	}
     // If the mouse is over the billboard, change its scale and color
-    var highlightBarHandler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+/*     var highlightBarHandler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
     highlightBarHandler.setInputAction(
         function (movement) {
             var pickedObject = viewer.scene.pick(movement.endPosition);
@@ -430,9 +443,9 @@
             }
         },
         Cesium.ScreenSpaceEventType.MOUSE_MOVE
-    );
+    ); */
 
-    var flyToHandler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+/*     var flyToHandler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
     flyToHandler.setInputAction(
         function (movement) {
             var pickedObject = viewer.scene.pick(movement.position);
@@ -463,12 +476,12 @@
             position: {my: "right center", at: "right center", of: "canvas"},
             show: "slow"
         });
-      });
+      }); */
 
 
     // define functionality for flying to a nation
     // this callback is triggered when a nation is clicked
-    sharedObject.flyTo = function(nationData) {
+/*     sharedObject.flyTo = function(nationData) {
         var ellipsoid = viewer.scene.globe.ellipsoid;
 
         var destination = Cesium.Cartographic.fromDegrees(nationData.lon, nationData.lat - 5.0, 10000000.0);
@@ -484,6 +497,6 @@
                 destination: destCartesian
             });
         }
-    };
+    }; */
 
 })();
