@@ -62,7 +62,7 @@
             set : function(e) {
                 if (Cesium.defined(this._selectedEntity)) {
                     var entity = this._selectedEntity;
-                    entity.polyline.material.color = new Cesium.ConstantProperty(Cesium.Color.fromCssColorString(this._colorScale(entity.gridID)));
+                    entity.polyline.material.color = new Cesium.ConstantProperty(Cesium.Color.fromCssColorString(groupByDistr(entity.district)));
                 }
                 if (Cesium.defined(e)) {
                     e.polyline.material.color = new Cesium.ConstantProperty(Cesium.Color.fromCssColorString('#00ff00'));
@@ -152,7 +152,7 @@
 		//在每个国家（json 实体）中循环
 		var rowCount=0;
 		for(var j=0;j<752;j++){
-			console.log(j);
+			//console.log(j);
 			// Construct Wealth related Properties
 			//sample是可以插值的对象，所以可以平滑的变化
 			//构造财富相关的属性数据，wealth对象是一个带有时间、位置属性的序列，存储wealth在地球上的位置和高度
@@ -198,12 +198,13 @@
 				}
 			}
 			
-			
+			console.log(row.gridID);
 			var polyline = new Cesium.PolylineGraphics();
 			polyline.show = new Cesium.ConstantProperty(true);
 			var outlineMaterial = new Cesium.PolylineOutlineMaterialProperty();
 			//线框颜色因国家名称而变化，用colorScale实现
-			outlineMaterial.color = new Cesium.ConstantProperty(Cesium.Color.fromCssColorString(this._colorScale(row.gridID)));
+			outlineMaterial.color = new Cesium.ConstantProperty(Cesium.Color.fromCssColorString(groupByDistr(row.district)));
+			
 			outlineMaterial.outlineColor = new Cesium.ConstantProperty(new Cesium.Color(0.0, 0.0, 0.0, 1.0));
 			outlineMaterial.outlineWidth = new Cesium.ConstantProperty(2.0);
 			polyline.material = outlineMaterial;
@@ -233,6 +234,8 @@
 			entity.sampledBiFollow = sampledBiFollow;
 			entity.addProperty('sampledUserCount');
 			entity.sampledUserCount = sampledUserCount;
+			entity.addProperty('district');
+			entity.district = row.district;
 			//entity.description = new Cesium.ConstantProperty("foo");
 			
 			// if we wanted to use points instead ...
@@ -244,15 +247,32 @@
 			entities.add(entity);
 			
 		}
-		
-        
-		
+
         //Once all data is processed, call resumeEvents and raise the changed event.
         entities.resumeEvents();
         this._changed.raiseEvent(this);
         this._setLoading(false);
     };
 
+	function groupByDistr(district){
+		if(district==="zhongxin"){
+			return '#756bb1';
+		}
+		else if(district === "minhang"){
+			return '#9e9ac8';
+		}
+		else if(district === "jiading"){
+			return '#bcbddc';
+		}
+		else if(district === "pudong"){
+			return '#dadaeb'
+		}
+		else if(district === "nanhui"){
+			return '#636363';
+		}
+		else return '#636363';
+	}
+	
     weiboDataSource.prototype._setLoading = function(isLoading) {
         if (this._isLoading !== isLoading) {
             this._isLoading = isLoading;
@@ -335,7 +355,7 @@
                 infoBox : false
             });
 
-    var stamenTonerImagery = viewer.baseLayerPicker.viewModel.imageryProviderViewModels[8];
+    var stamenTonerImagery = viewer.baseLayerPicker.viewModel.imageryProviderViewModels[2];
     viewer.baseLayerPicker.viewModel.selectedImagery = stamenTonerImagery;
 
     // setup clockview model
@@ -369,34 +389,40 @@
 	demo.loadUrl('demoStatistic2.json');
 	var grid = new Cesium.GeoJsonDataSource();
 	grid.load('gridwithvalue.geojson',{
-		outlineWidth:1,
-		material: Cesium.Color.fromRgba(0,0,0,0)
+		strokeWidth:1,
+		stroke:Cesium.Color.GREY,
+		fill: Cesium.Color.fromRgba(0,0,0,0)
 	});
+	
 	showGrid('grid');
 	viewer.zoomTo(grid);
 	function showGrid(label){
 		viewer.dataSources.removeAll();
+		console.log('start');
 		var entities = grid.entities.values;
-
+		console.log(grid);
 		for (var i = 0; i < entities.length; i++) {
+			console.log('haha');
 			//For each entity, create a random color based on the state name.
 			//Some states have multiple entities, so we store the color in a
 			//hash so that we use the same color for the entire state.
 			var entity = entities[i];
 			//var name = entity.name;
 			var color;
-			if(label==='grid'){
+			if(label === 'grid'){
 				color = Cesium.Color.fromRgba(0,0,0,0);
 				entity.polygon.outlineWidth = 1;
+				entity.polygon.outlineColor = Cesium.Color.GREY;				
 				entity.polygon.outline = true;
 				entity.polygon.material = color;
+				
 			}
-			else if(label==='restaurant'){
+			else if(label === 'restaurant'){
 				color = fillGrid(entity.properties.restaurant);
 				entity.polygon.outline = false;
 				entity.polygon.material = color;
 			}
-			else if(label == 'scene'){
+			else if(label === 'scene'){
 				color = fillGrid2(entity.properties.scene);
 				entity.polygon.outline = false;
 				entity.polygon.material = color;
@@ -424,8 +450,8 @@
 	function fillGrid2(num){
 		var i = 0;
 		 for(i = 0;i < value2color2.length;i++){
-			if(num < value2color2[i]){
-				var color = Cesium.Color.fromHsl(125/360, 1, 0.9-i*0.04, 1);
+			if(num <= value2color2[i]){
+				var color = Cesium.Color.fromHsl(205/360, 0.61, 0.8-i*0.04, 1);
 				return color;
 			}
 		} 
