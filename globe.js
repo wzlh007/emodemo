@@ -349,14 +349,28 @@
         demo.entities.resumeEvents();
     });
 	
+	var basemapProvider = new Cesium.CartoDBImageryProvider({
+		url: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+		credit: 'Basemap courtesy of CartoDB'
+	});
+	
     var viewer = new Cesium.Viewer('cesiumContainer', 
             {
                 fullscreenElement : document.body,
-                infoBox : false
+                infoBox : false,
+				imageryProvider: basemapProvider,
+				baseLayerPicker: false,
+				fullscreenButton: false,
+				homeButton: false,
+				timeline: false,
+				navigationHelpButton: false,
+				//animation: false,
+				//scene3DOnly: true,
+				geocoder: false
             });
 
-    var stamenTonerImagery = viewer.baseLayerPicker.viewModel.imageryProviderViewModels[2];
-    viewer.baseLayerPicker.viewModel.selectedImagery = stamenTonerImagery;
+    //var stamenTonerImagery = viewer.baseLayerPicker.viewModel.imageryProviderViewModels[2];
+    //viewer.baseLayerPicker.viewModel.selectedImagery = stamenTonerImagery;
 
     // setup clockview model
     viewer.clock.clockRange = Cesium.ClockRange.LOOP_STOP;
