@@ -20,9 +20,12 @@ import json
 #f.close
 
 #json string:
+data = {"name":"test", "type":{"name":"seq", "parameter":["1", "2"]}}
 s = json.loads('{"name":"test", "type":{"name":"seq", "parameter":["1", "2"]}}')
+print repr(data)
 print s
 print s.keys()
 print s["name"]
 print s["type"]["name"]
 print s["type"]["parameter"][1]
+print json.dumps(s, indent=2)
