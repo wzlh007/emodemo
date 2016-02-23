@@ -1,0 +1,122 @@
+[
+  {
+    "gridID": 0,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 86,
+    "date": "2015-12-09",
+    "lon": 121.333,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 0,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 76,
+    "date": "2015-12-10",
+    "lon": 121.333,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 0,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 8.6667,
+    "date": "2015-12-12",
+    "lon": 121.333,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 0,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 161,
+    "date": "2015-12-14",
+    "lon": 121.333,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 0,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 91.3333,
+    "date": "2015-12-15",
+    "lon": 121.333,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 0,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 48.5,
+    "date": "2015-12-16",
+    "lon": 121.333,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 1,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 1060.25,
+    "date": "2015-12-09",
+    "lon": 121.343,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 1,
+    "weiboCount": 9,
+    "userCount": 7,
+    "biFollow": 85,
+    "date": "2015-12-10",
+    "lon": 121.343,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 1,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 306.3333,
+    "date": "2015-12-12",
+    "lon": 121.343,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 1,
+    "weiboCount": 19,
+    "userCount": 11,
+    "biFollow": 137.4545,
+    "date": "2015-12-14",
+    "lon": 121.343,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 1,
+    "weiboCount": 26,
+    "userCount": 3,
+    "biFollow": 1116.3333,
+    "date": "2015-12-15",
+    "lon": 121.343,
+    "lat": 31.1359,
+    "district": "minhang"
+  },
+  {
+    "gridID": 1,
+    "weiboCount": 15,
+    "userCount": 6,
+    "biFollow": 249.6667,
+    "date": "2015-12-16",
+    "lon": 121.343,
+    "lat": 31.1359,
+    "district": "minhang"
+  }
+]

@@ -399,8 +399,10 @@
     viewer.scene.morphToColumbusView(5.0)
     //viewer.scene.morphTo3D(5.0)
 	
-	var demo = new weiboDataSource();
-	demo.loadUrl('demoStatistic2.json');
+	//var demo = new weiboDataSource();
+	//demo.loadUrl('demoStatistic2.json');
+	var data = viewer.dataSources.add(Cesium.CzmlDataSource.load('result1.czml'));
+	console.log(data);
 	var grid = new Cesium.GeoJsonDataSource();
 	grid.load('gridwithvalue.geojson',{
 		strokeWidth:1,
@@ -443,7 +445,7 @@
 			}
 		}
 		viewer.dataSources.add(grid);
-		viewer.dataSources.add(demo);
+		//viewer.dataSources.add(demo);
 	}
 	
 	$("input[name='gridpoi']").change(function(d){
