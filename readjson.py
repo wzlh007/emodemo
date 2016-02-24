@@ -50,7 +50,7 @@ def value2color(value):
 
     
 #json string:
-file = 'input.json'
+file = 'input1.json'
 ##打开数据文件
 fp = open(file,'r')
 print type(fp)
@@ -87,12 +87,12 @@ for i in range(0, rownum):
         coordinates = {}
         lon =lists[i]["lon"]
         lat =lists[i]["lat"]
-        wsenDegrees = [lon-0.005,lat-0.005,lon+0.005,lat+0.005]
+        wsenDegrees = [lon-0.003,lat-0.003,lon+0.003,lat+0.003]
         coordinates["wsenDegrees"] = wsenDegrees
         rectangle["coordinates"] = coordinates
         ##rectangle的样式
         rectangle["outline"] = 1
-        rectangle["fill"] = 0
+        rectangle["fill"] = 1
         rectangle["outlineWidth"] = 4
         outlineColor = {}
         rgba = []
@@ -105,6 +105,14 @@ for i in range(0, rownum):
         rgba.append(255)
         outlineColor["rgba"] = rgba
         rectangle["outlineColor"] = outlineColor
+        color = {}
+        solidColor = {}
+        material ={}
+        color["rgba"] = rgba
+        solidColor["color"] = color
+        material["solidColor"] = solidColor
+        rectangle["material"] = material
+		
         extrudedHeight = {}
         number = []
         number.append(lists[i]["date"]+"T00:00:00Z")
@@ -129,6 +137,7 @@ for i in range(0, rownum):
                 rgba.append(255)
                 outlineColor["rgba"] = rgba
                 rectangle["outlineColor"] = outlineColor
+                rectangle["material"]["solidColor"]["color"]["rgba"] = rgba
                 number.append(lists[i]["date"]+"T00:00:00Z")
                 number.append(lists[i]["weiboCount"]*100)
                 extrudedHeight["number"] = number
@@ -140,7 +149,7 @@ for i in range(0, rownum):
 s3 = json.dumps(czml)
 ##print s3
 ##创建新文件
-fileout = 'resultfinal.czml'
+fileout = 'result1fillsmall.czml'
 ##打开数据文件
 fout = open(fileout,'w')
 fout.write(s3)

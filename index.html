@@ -53,12 +53,20 @@
 			url: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
 			credit: 'Basemap courtesy of CartoDB'
 		});
+		var tiandituMarker = new Cesium.WebMapTileServiceImageryProvider({
+			url :'http://t0.tianditu.com/cia_w/wmts',
+            layer : 'cva',
+            style : 'default',
+            format : 'tiles',
+            tileMatrixSetID : 'w'//,
+			//credit:  new Cesium.Credit('Visual Earth Studio', 'images/velogo.png', 'http://www.visualearth.org') 
+		} ) ;
 		
 		var viewer = new Cesium.Viewer('cesiumContainer', 
 		{
 			fullscreenElement : document.body,
 			//infoBox : false,
-			imageryProvider: basemapProvider,
+			imageryProvider: basemapProvider,//basemapProvider,
 			baseLayerPicker: false,
 			fullscreenButton: false,
 			homeButton: false,
@@ -68,7 +76,10 @@
 			//scene3DOnly: true,
 			geocoder: false
 		});
-		//var data = viewer.dataSources.add(Cesium.CzmlDataSource.load('result1.czml'));
+		
+		//var layers = viewer.scene.imageryLayers;
+		//layers.addImageryProvider(tiandituMarker);
+		
 		var grid = new Cesium.GeoJsonDataSource();
 		grid.load('gridwithvalue.geojson',{
 			strokeWidth:1,
@@ -76,7 +87,7 @@
 			fill: Cesium.Color.fromRgba(0,0,0,0)
 		});
 		showGrid('grid');
-		var data = viewer.dataSources.add(Cesium.CzmlDataSource.load('result1.czml'));
+		var data = viewer.dataSources.add(Cesium.CzmlDataSource.load('result1fill.czml'));
 		viewer.zoomTo(data);
 		function showGrid(label){
 			if(viewer.dataSources.contains(grid))
