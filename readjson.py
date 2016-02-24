@@ -50,7 +50,7 @@ def value2color(value):
 
     
 #json string:
-file = 'input.json'
+file = 'input1.json'
 ##打开数据文件
 fp = open(file,'r')
 print type(fp)
@@ -91,8 +91,8 @@ for i in range(0, rownum):
         coordinates["wsenDegrees"] = wsenDegrees
         rectangle["coordinates"] = coordinates
         ##rectangle的样式
-        rectangle["outline"] = 1
-        rectangle["fill"] = 0
+        rectangle["outline"] = 0
+        rectangle["fill"] = 1
         rectangle["outlineWidth"] = 4
         outlineColor = {}
         rgba = []
@@ -103,14 +103,25 @@ for i in range(0, rownum):
         rgba.append(rgb[1])
         rgba.append(rgb[2])
         rgba.append(255)
-        outlineColor["rgba"] = rgba
-        rectangle["outlineColor"] = outlineColor
-        extrudedHeight = {}
+        ##outlineColor["rgba"] = rgba
+        ##rectangle["outlineColor"] = outlineColor
+        color = {}
+        solidColor = {}
+        material ={}
+        color["rgba"] = rgba
+        solidColor["color"] = color
+        material["solidColor"] = solidColor
+        rectangle["material"] = material
+		
+        ##extrudedHeight = {}
+        height = {}
         number = []
         number.append(lists[i]["date"]+"T00:00:00Z")
         number.append(lists[i]["weiboCount"]*100)
-        extrudedHeight["number"] = number
-        rectangle["extrudedHeight"] = extrudedHeight
+        ##extrudedHeight["number"] = number
+        height["number"] = number
+        ##rectangle["extrudedHeight"] = extrudedHeight
+        rectangle["height"] = height
         entity["rectangle"] = rectangle
         num=num+1
     ##中间添加
@@ -127,12 +138,15 @@ for i in range(0, rownum):
                 rgba.append(rgb[1])
                 rgba.append(rgb[2])
                 rgba.append(255)
-                outlineColor["rgba"] = rgba
-                rectangle["outlineColor"] = outlineColor
+                ##outlineColor["rgba"] = rgba
+                ##rectangle["outlineColor"] = outlineColor
+                rectangle["material"]["solidColor"]["color"]["rgba"] = rgba
                 number.append(lists[i]["date"]+"T00:00:00Z")
                 number.append(lists[i]["weiboCount"]*100)
-                extrudedHeight["number"] = number
-                rectangle["extrudedHeight"] = extrudedHeight
+                ##extrudedHeight["number"] = number
+                height["number"] = number
+                ##rectangle["extrudedHeight"] = extrudedHeight
+                rectangle["height"] = height
                 entity["rectangle"] = rectangle
         else:
             czml.append(entity)
@@ -140,7 +154,7 @@ for i in range(0, rownum):
 s3 = json.dumps(czml)
 ##print s3
 ##创建新文件
-fileout = 'resultfinal.czml'
+fileout = 'result1rectpiece.czml'
 ##打开数据文件
 fout = open(fileout,'w')
 fout.write(s3)
