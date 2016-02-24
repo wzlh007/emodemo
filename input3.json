@@ -1,0 +1,8492 @@
+[
+  {
+    "gridID": 512,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 15.5,
+    "date": "2015-12-16",
+    "lon": 121.593,
+    "lat": 31.3159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 513,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1,
+    "date": "2015-12-09",
+    "lon": 121.333,
+    "lat": 31.3259,
+    "district": "jiading"
+  },
+  {
+    "gridID": 513,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-12",
+    "lon": 121.333,
+    "lat": 31.3259,
+    "district": "jiading"
+  },
+  {
+    "gridID": 513,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 12.5,
+    "date": "2015-12-14",
+    "lon": 121.333,
+    "lat": 31.3259,
+    "district": "jiading"
+  },
+  {
+    "gridID": 513,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 168,
+    "date": "2015-12-16",
+    "lon": 121.333,
+    "lat": 31.3259,
+    "district": "jiading"
+  },
+  {
+    "gridID": 514,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 431,
+    "date": "2015-12-09",
+    "lon": 121.343,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 514,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-10",
+    "lon": 121.343,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 514,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 45.5,
+    "date": "2015-12-15",
+    "lon": 121.343,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 515,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 24,
+    "date": "2015-12-16",
+    "lon": 121.353,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 516,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-09",
+    "lon": 121.363,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 516,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 175,
+    "date": "2015-12-14",
+    "lon": 121.363,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 517,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 535.6667,
+    "date": "2015-12-09",
+    "lon": 121.373,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 517,
+    "weiboCount": 6,
+    "userCount": 3,
+    "biFollow": 159,
+    "date": "2015-12-10",
+    "lon": 121.373,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 517,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 72.2857,
+    "date": "2015-12-12",
+    "lon": 121.373,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 517,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 39.5,
+    "date": "2015-12-14",
+    "lon": 121.373,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 517,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 58.3333,
+    "date": "2015-12-15",
+    "lon": 121.373,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 517,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 6.3333,
+    "date": "2015-12-16",
+    "lon": 121.373,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 518,
+    "weiboCount": 14,
+    "userCount": 6,
+    "biFollow": 71.1667,
+    "date": "2015-12-09",
+    "lon": 121.383,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 518,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 66.1429,
+    "date": "2015-12-10",
+    "lon": 121.383,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 518,
+    "weiboCount": 13,
+    "userCount": 13,
+    "biFollow": 140.3077,
+    "date": "2015-12-12",
+    "lon": 121.383,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 518,
+    "weiboCount": 23,
+    "userCount": 18,
+    "biFollow": 91.5556,
+    "date": "2015-12-14",
+    "lon": 121.383,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 518,
+    "weiboCount": 9,
+    "userCount": 6,
+    "biFollow": 166.3333,
+    "date": "2015-12-15",
+    "lon": 121.383,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 518,
+    "weiboCount": 10,
+    "userCount": 10,
+    "biFollow": 34.5,
+    "date": "2015-12-16",
+    "lon": 121.383,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 519,
+    "weiboCount": 12,
+    "userCount": 10,
+    "biFollow": 109.8,
+    "date": "2015-12-09",
+    "lon": 121.393,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 519,
+    "weiboCount": 11,
+    "userCount": 9,
+    "biFollow": 143.5556,
+    "date": "2015-12-10",
+    "lon": 121.393,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 519,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 297.2857,
+    "date": "2015-12-12",
+    "lon": 121.393,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 519,
+    "weiboCount": 24,
+    "userCount": 18,
+    "biFollow": 584.6667,
+    "date": "2015-12-14",
+    "lon": 121.393,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 519,
+    "weiboCount": 19,
+    "userCount": 17,
+    "biFollow": 133.5882,
+    "date": "2015-12-15",
+    "lon": 121.393,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 519,
+    "weiboCount": 13,
+    "userCount": 12,
+    "biFollow": 134,
+    "date": "2015-12-16",
+    "lon": 121.393,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 520,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 297,
+    "date": "2015-12-09",
+    "lon": 121.403,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 520,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 980,
+    "date": "2015-12-10",
+    "lon": 121.403,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 520,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 53.5,
+    "date": "2015-12-12",
+    "lon": 121.403,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 520,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 53.8571,
+    "date": "2015-12-14",
+    "lon": 121.403,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 520,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 483.3333,
+    "date": "2015-12-15",
+    "lon": 121.403,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 520,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 591.5,
+    "date": "2015-12-16",
+    "lon": 121.403,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 521,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 163,
+    "date": "2015-12-15",
+    "lon": 121.413,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 521,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 3,
+    "date": "2015-12-16",
+    "lon": 121.413,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 522,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-09",
+    "lon": 121.423,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 522,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 67,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 522,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 64,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 522,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 10,
+    "date": "2015-12-14",
+    "lon": 121.423,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 522,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 33.5,
+    "date": "2015-12-15",
+    "lon": 121.423,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 522,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 15.3333,
+    "date": "2015-12-16",
+    "lon": 121.423,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 523,
+    "weiboCount": 12,
+    "userCount": 12,
+    "biFollow": 57.4167,
+    "date": "2015-12-09",
+    "lon": 121.433,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 523,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 63.6667,
+    "date": "2015-12-10",
+    "lon": 121.433,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 523,
+    "weiboCount": 21,
+    "userCount": 20,
+    "biFollow": 56.3,
+    "date": "2015-12-12",
+    "lon": 121.433,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 523,
+    "weiboCount": 16,
+    "userCount": 14,
+    "biFollow": 47.7857,
+    "date": "2015-12-14",
+    "lon": 121.433,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 523,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 23.1429,
+    "date": "2015-12-15",
+    "lon": 121.433,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 523,
+    "weiboCount": 12,
+    "userCount": 12,
+    "biFollow": 61.6667,
+    "date": "2015-12-16",
+    "lon": 121.433,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 524,
+    "weiboCount": 14,
+    "userCount": 9,
+    "biFollow": 262.3333,
+    "date": "2015-12-09",
+    "lon": 121.443,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 524,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 370.6,
+    "date": "2015-12-10",
+    "lon": 121.443,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 524,
+    "weiboCount": 31,
+    "userCount": 29,
+    "biFollow": 85,
+    "date": "2015-12-12",
+    "lon": 121.443,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 524,
+    "weiboCount": 18,
+    "userCount": 17,
+    "biFollow": 170.5882,
+    "date": "2015-12-14",
+    "lon": 121.443,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 524,
+    "weiboCount": 13,
+    "userCount": 12,
+    "biFollow": 135.8333,
+    "date": "2015-12-15",
+    "lon": 121.443,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 524,
+    "weiboCount": 30,
+    "userCount": 27,
+    "biFollow": 135.8148,
+    "date": "2015-12-16",
+    "lon": 121.443,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 525,
+    "weiboCount": 11,
+    "userCount": 11,
+    "biFollow": 302.6364,
+    "date": "2015-12-09",
+    "lon": 121.453,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 525,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 403,
+    "date": "2015-12-10",
+    "lon": 121.453,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 525,
+    "weiboCount": 26,
+    "userCount": 17,
+    "biFollow": 140.7059,
+    "date": "2015-12-12",
+    "lon": 121.453,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 525,
+    "weiboCount": 12,
+    "userCount": 10,
+    "biFollow": 174.8,
+    "date": "2015-12-14",
+    "lon": 121.453,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 525,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 60.6,
+    "date": "2015-12-15",
+    "lon": 121.453,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 525,
+    "weiboCount": 15,
+    "userCount": 13,
+    "biFollow": 147.2308,
+    "date": "2015-12-16",
+    "lon": 121.453,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 526,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 101,
+    "date": "2015-12-09",
+    "lon": 121.463,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 526,
+    "weiboCount": 10,
+    "userCount": 6,
+    "biFollow": 126.5,
+    "date": "2015-12-10",
+    "lon": 121.463,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 526,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 165,
+    "date": "2015-12-12",
+    "lon": 121.463,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 526,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 85.6667,
+    "date": "2015-12-14",
+    "lon": 121.463,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 526,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 40,
+    "date": "2015-12-15",
+    "lon": 121.463,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 526,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 204,
+    "date": "2015-12-16",
+    "lon": 121.463,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 527,
+    "weiboCount": 6,
+    "userCount": 3,
+    "biFollow": 208.3333,
+    "date": "2015-12-09",
+    "lon": 121.473,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 527,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 19.5,
+    "date": "2015-12-10",
+    "lon": 121.473,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 527,
+    "weiboCount": 13,
+    "userCount": 10,
+    "biFollow": 128.9,
+    "date": "2015-12-12",
+    "lon": 121.473,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 527,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 65.8571,
+    "date": "2015-12-14",
+    "lon": 121.473,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 527,
+    "weiboCount": 6,
+    "userCount": 4,
+    "biFollow": 105.75,
+    "date": "2015-12-15",
+    "lon": 121.473,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 527,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 93,
+    "date": "2015-12-16",
+    "lon": 121.473,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 528,
+    "weiboCount": 11,
+    "userCount": 9,
+    "biFollow": 35.5556,
+    "date": "2015-12-09",
+    "lon": 121.483,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 528,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 265.4,
+    "date": "2015-12-10",
+    "lon": 121.483,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 528,
+    "weiboCount": 12,
+    "userCount": 11,
+    "biFollow": 142.0909,
+    "date": "2015-12-12",
+    "lon": 121.483,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 528,
+    "weiboCount": 13,
+    "userCount": 13,
+    "biFollow": 53.9231,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 528,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 91.5,
+    "date": "2015-12-15",
+    "lon": 121.483,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 528,
+    "weiboCount": 14,
+    "userCount": 11,
+    "biFollow": 109.2727,
+    "date": "2015-12-16",
+    "lon": 121.483,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 529,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 151,
+    "date": "2015-12-09",
+    "lon": 121.493,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 529,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 56,
+    "date": "2015-12-10",
+    "lon": 121.493,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 529,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 67,
+    "date": "2015-12-12",
+    "lon": 121.493,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 529,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 67,
+    "date": "2015-12-14",
+    "lon": 121.493,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 529,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 35,
+    "date": "2015-12-15",
+    "lon": 121.493,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 529,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 17,
+    "date": "2015-12-16",
+    "lon": 121.493,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 530,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1,
+    "date": "2015-12-09",
+    "lon": 121.503,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 530,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-10",
+    "lon": 121.503,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 530,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 217,
+    "date": "2015-12-12",
+    "lon": 121.503,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 530,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 56,
+    "date": "2015-12-14",
+    "lon": 121.503,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 530,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 29,
+    "date": "2015-12-15",
+    "lon": 121.503,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 530,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 7,
+    "date": "2015-12-16",
+    "lon": 121.503,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 531,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 107,
+    "date": "2015-12-09",
+    "lon": 121.513,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 531,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 92,
+    "date": "2015-12-10",
+    "lon": 121.513,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 531,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 92.6667,
+    "date": "2015-12-12",
+    "lon": 121.513,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 531,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 114.5,
+    "date": "2015-12-14",
+    "lon": 121.513,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 531,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 341.5,
+    "date": "2015-12-15",
+    "lon": 121.513,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 531,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 108,
+    "date": "2015-12-16",
+    "lon": 121.513,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 532,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 229.7143,
+    "date": "2015-12-09",
+    "lon": 121.523,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 532,
+    "weiboCount": 18,
+    "userCount": 15,
+    "biFollow": 117.2,
+    "date": "2015-12-10",
+    "lon": 121.523,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 532,
+    "weiboCount": 15,
+    "userCount": 12,
+    "biFollow": 93,
+    "date": "2015-12-12",
+    "lon": 121.523,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 532,
+    "weiboCount": 18,
+    "userCount": 16,
+    "biFollow": 317.625,
+    "date": "2015-12-14",
+    "lon": 121.523,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 532,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 159.125,
+    "date": "2015-12-15",
+    "lon": 121.523,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 532,
+    "weiboCount": 15,
+    "userCount": 14,
+    "biFollow": 243.5714,
+    "date": "2015-12-16",
+    "lon": 121.523,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 533,
+    "weiboCount": 13,
+    "userCount": 11,
+    "biFollow": 41.3636,
+    "date": "2015-12-09",
+    "lon": 121.533,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 533,
+    "weiboCount": 9,
+    "userCount": 9,
+    "biFollow": 27.2222,
+    "date": "2015-12-10",
+    "lon": 121.533,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 533,
+    "weiboCount": 14,
+    "userCount": 11,
+    "biFollow": 72.8182,
+    "date": "2015-12-12",
+    "lon": 121.533,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 533,
+    "weiboCount": 20,
+    "userCount": 17,
+    "biFollow": 88.5882,
+    "date": "2015-12-14",
+    "lon": 121.533,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 533,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 80.8333,
+    "date": "2015-12-15",
+    "lon": 121.533,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 533,
+    "weiboCount": 17,
+    "userCount": 12,
+    "biFollow": 222.8333,
+    "date": "2015-12-16",
+    "lon": 121.533,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 534,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 140.25,
+    "date": "2015-12-09",
+    "lon": 121.543,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 534,
+    "weiboCount": 7,
+    "userCount": 4,
+    "biFollow": 633.5,
+    "date": "2015-12-10",
+    "lon": 121.543,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 534,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 31.3333,
+    "date": "2015-12-12",
+    "lon": 121.543,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 534,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 40,
+    "date": "2015-12-14",
+    "lon": 121.543,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 534,
+    "weiboCount": 11,
+    "userCount": 8,
+    "biFollow": 145,
+    "date": "2015-12-15",
+    "lon": 121.543,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 534,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 39.25,
+    "date": "2015-12-16",
+    "lon": 121.543,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 535,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 126.25,
+    "date": "2015-12-10",
+    "lon": 121.553,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 535,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 43.5,
+    "date": "2015-12-12",
+    "lon": 121.553,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 535,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 90.6667,
+    "date": "2015-12-14",
+    "lon": 121.553,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 535,
+    "weiboCount": 9,
+    "userCount": 8,
+    "biFollow": 101.75,
+    "date": "2015-12-15",
+    "lon": 121.553,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 535,
+    "weiboCount": 9,
+    "userCount": 9,
+    "biFollow": 65.4444,
+    "date": "2015-12-16",
+    "lon": 121.553,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 537,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 89,
+    "date": "2015-12-09",
+    "lon": 121.573,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 537,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 451,
+    "date": "2015-12-12",
+    "lon": 121.573,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 537,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 76,
+    "date": "2015-12-14",
+    "lon": 121.573,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 538,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 28.3333,
+    "date": "2015-12-09",
+    "lon": 121.583,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 538,
+    "weiboCount": 9,
+    "userCount": 6,
+    "biFollow": 15.8333,
+    "date": "2015-12-10",
+    "lon": 121.583,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 538,
+    "weiboCount": 5,
+    "userCount": 3,
+    "biFollow": 126.6667,
+    "date": "2015-12-12",
+    "lon": 121.583,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 538,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 55.8,
+    "date": "2015-12-14",
+    "lon": 121.583,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 538,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 176,
+    "date": "2015-12-15",
+    "lon": 121.583,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 538,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 51.5,
+    "date": "2015-12-16",
+    "lon": 121.583,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 539,
+    "weiboCount": 8,
+    "userCount": 6,
+    "biFollow": 79,
+    "date": "2015-12-09",
+    "lon": 121.593,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 539,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 29.5,
+    "date": "2015-12-10",
+    "lon": 121.593,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 539,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 60.8,
+    "date": "2015-12-12",
+    "lon": 121.593,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 539,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 18.3333,
+    "date": "2015-12-14",
+    "lon": 121.593,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 539,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 227,
+    "date": "2015-12-15",
+    "lon": 121.593,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 539,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 19.8333,
+    "date": "2015-12-16",
+    "lon": 121.593,
+    "lat": 31.3259,
+    "district": "pudong"
+  },
+  {
+    "gridID": 540,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 26,
+    "date": "2015-12-09",
+    "lon": 121.333,
+    "lat": 31.3359,
+    "district": "jiading"
+  },
+  {
+    "gridID": 542,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 104,
+    "date": "2015-12-09",
+    "lon": 121.353,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 542,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 44,
+    "date": "2015-12-10",
+    "lon": 121.353,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 542,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 45.5,
+    "date": "2015-12-12",
+    "lon": 121.353,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 542,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 58,
+    "date": "2015-12-15",
+    "lon": 121.353,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 543,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 25,
+    "date": "2015-12-09",
+    "lon": 121.363,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 543,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 40.5,
+    "date": "2015-12-15",
+    "lon": 121.363,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 543,
+    "weiboCount": 5,
+    "userCount": 3,
+    "biFollow": 85,
+    "date": "2015-12-16",
+    "lon": 121.363,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 544,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 37,
+    "date": "2015-12-10",
+    "lon": 121.373,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 544,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 111.6667,
+    "date": "2015-12-15",
+    "lon": 121.373,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 545,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 8.5,
+    "date": "2015-12-09",
+    "lon": 121.383,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 545,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 129,
+    "date": "2015-12-10",
+    "lon": 121.383,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 545,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 21.3333,
+    "date": "2015-12-12",
+    "lon": 121.383,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 545,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 143,
+    "date": "2015-12-14",
+    "lon": 121.383,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 545,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 1,
+    "date": "2015-12-15",
+    "lon": 121.383,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 545,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 32,
+    "date": "2015-12-16",
+    "lon": 121.383,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 546,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 410.75,
+    "date": "2015-12-09",
+    "lon": 121.393,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 546,
+    "weiboCount": 4,
+    "userCount": 2,
+    "biFollow": 912,
+    "date": "2015-12-10",
+    "lon": 121.393,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 546,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 137,
+    "date": "2015-12-12",
+    "lon": 121.393,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 546,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 127.8333,
+    "date": "2015-12-14",
+    "lon": 121.393,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 546,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 107.6667,
+    "date": "2015-12-15",
+    "lon": 121.393,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 546,
+    "weiboCount": 9,
+    "userCount": 4,
+    "biFollow": 185,
+    "date": "2015-12-16",
+    "lon": 121.393,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 547,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 131.5,
+    "date": "2015-12-09",
+    "lon": 121.403,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 547,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 32.5,
+    "date": "2015-12-12",
+    "lon": 121.403,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 547,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 2.5,
+    "date": "2015-12-14",
+    "lon": 121.403,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 547,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 4,
+    "date": "2015-12-15",
+    "lon": 121.403,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 547,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 172,
+    "date": "2015-12-16",
+    "lon": 121.403,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 548,
+    "weiboCount": 4,
+    "userCount": 2,
+    "biFollow": 69.5,
+    "date": "2015-12-09",
+    "lon": 121.413,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 548,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 74,
+    "date": "2015-12-12",
+    "lon": 121.413,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 548,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 54.5,
+    "date": "2015-12-14",
+    "lon": 121.413,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 548,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 48,
+    "date": "2015-12-15",
+    "lon": 121.413,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 548,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 29,
+    "date": "2015-12-16",
+    "lon": 121.413,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 549,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 58.1429,
+    "date": "2015-12-09",
+    "lon": 121.423,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 549,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 18,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 549,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 137.4,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 549,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 69.2857,
+    "date": "2015-12-14",
+    "lon": 121.423,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 549,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 37.2,
+    "date": "2015-12-15",
+    "lon": 121.423,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 549,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 23.6667,
+    "date": "2015-12-16",
+    "lon": 121.423,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 550,
+    "weiboCount": 10,
+    "userCount": 8,
+    "biFollow": 69.875,
+    "date": "2015-12-09",
+    "lon": 121.433,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 550,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 93.8571,
+    "date": "2015-12-10",
+    "lon": 121.433,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 550,
+    "weiboCount": 11,
+    "userCount": 11,
+    "biFollow": 108.1818,
+    "date": "2015-12-12",
+    "lon": 121.433,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 550,
+    "weiboCount": 23,
+    "userCount": 21,
+    "biFollow": 326.1905,
+    "date": "2015-12-14",
+    "lon": 121.433,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 550,
+    "weiboCount": 10,
+    "userCount": 9,
+    "biFollow": 228,
+    "date": "2015-12-15",
+    "lon": 121.433,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 550,
+    "weiboCount": 19,
+    "userCount": 17,
+    "biFollow": 159.1765,
+    "date": "2015-12-16",
+    "lon": 121.433,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 551,
+    "weiboCount": 9,
+    "userCount": 9,
+    "biFollow": 62.2222,
+    "date": "2015-12-09",
+    "lon": 121.443,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 551,
+    "weiboCount": 8,
+    "userCount": 5,
+    "biFollow": 28,
+    "date": "2015-12-10",
+    "lon": 121.443,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 551,
+    "weiboCount": 14,
+    "userCount": 10,
+    "biFollow": 41.3,
+    "date": "2015-12-12",
+    "lon": 121.443,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 551,
+    "weiboCount": 21,
+    "userCount": 18,
+    "biFollow": 65.7222,
+    "date": "2015-12-14",
+    "lon": 121.443,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 551,
+    "weiboCount": 9,
+    "userCount": 9,
+    "biFollow": 179.4444,
+    "date": "2015-12-15",
+    "lon": 121.443,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 551,
+    "weiboCount": 20,
+    "userCount": 16,
+    "biFollow": 54.8125,
+    "date": "2015-12-16",
+    "lon": 121.443,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 552,
+    "weiboCount": 12,
+    "userCount": 10,
+    "biFollow": 81,
+    "date": "2015-12-09",
+    "lon": 121.453,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 552,
+    "weiboCount": 8,
+    "userCount": 6,
+    "biFollow": 67.3333,
+    "date": "2015-12-10",
+    "lon": 121.453,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 552,
+    "weiboCount": 14,
+    "userCount": 13,
+    "biFollow": 142.7692,
+    "date": "2015-12-12",
+    "lon": 121.453,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 552,
+    "weiboCount": 13,
+    "userCount": 13,
+    "biFollow": 130.3846,
+    "date": "2015-12-14",
+    "lon": 121.453,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 552,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 212.6667,
+    "date": "2015-12-15",
+    "lon": 121.453,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 552,
+    "weiboCount": 13,
+    "userCount": 11,
+    "biFollow": 107.4545,
+    "date": "2015-12-16",
+    "lon": 121.453,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 553,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 93.5,
+    "date": "2015-12-09",
+    "lon": 121.463,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 554,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 65.6,
+    "date": "2015-12-09",
+    "lon": 121.473,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 554,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 25.6667,
+    "date": "2015-12-10",
+    "lon": 121.473,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 554,
+    "weiboCount": 11,
+    "userCount": 9,
+    "biFollow": 85.2222,
+    "date": "2015-12-12",
+    "lon": 121.473,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 554,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 63.5714,
+    "date": "2015-12-14",
+    "lon": 121.473,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 554,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 100.6,
+    "date": "2015-12-15",
+    "lon": 121.473,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 554,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 174.4286,
+    "date": "2015-12-16",
+    "lon": 121.473,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 555,
+    "weiboCount": 9,
+    "userCount": 5,
+    "biFollow": 58.8,
+    "date": "2015-12-09",
+    "lon": 121.483,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 555,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 146.3333,
+    "date": "2015-12-10",
+    "lon": 121.483,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 555,
+    "weiboCount": 11,
+    "userCount": 11,
+    "biFollow": 53.3636,
+    "date": "2015-12-12",
+    "lon": 121.483,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 555,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 92.8333,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 555,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 110,
+    "date": "2015-12-15",
+    "lon": 121.483,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 555,
+    "weiboCount": 9,
+    "userCount": 9,
+    "biFollow": 222.4444,
+    "date": "2015-12-16",
+    "lon": 121.483,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 556,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 56.4286,
+    "date": "2015-12-09",
+    "lon": 121.493,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 556,
+    "weiboCount": 11,
+    "userCount": 10,
+    "biFollow": 166.4,
+    "date": "2015-12-10",
+    "lon": 121.493,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 556,
+    "weiboCount": 9,
+    "userCount": 5,
+    "biFollow": 42.2,
+    "date": "2015-12-12",
+    "lon": 121.493,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 556,
+    "weiboCount": 11,
+    "userCount": 10,
+    "biFollow": 66,
+    "date": "2015-12-14",
+    "lon": 121.493,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 556,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 66,
+    "date": "2015-12-15",
+    "lon": 121.493,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 556,
+    "weiboCount": 17,
+    "userCount": 14,
+    "biFollow": 310,
+    "date": "2015-12-16",
+    "lon": 121.493,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 557,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 90.6667,
+    "date": "2015-12-09",
+    "lon": 121.503,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 557,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 34,
+    "date": "2015-12-10",
+    "lon": 121.503,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 557,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 121.125,
+    "date": "2015-12-12",
+    "lon": 121.503,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 557,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 84,
+    "date": "2015-12-14",
+    "lon": 121.503,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 557,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 84.5714,
+    "date": "2015-12-15",
+    "lon": 121.503,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 557,
+    "weiboCount": 13,
+    "userCount": 12,
+    "biFollow": 137.75,
+    "date": "2015-12-16",
+    "lon": 121.503,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 558,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 202.5,
+    "date": "2015-12-10",
+    "lon": 121.513,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 558,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 168.6667,
+    "date": "2015-12-12",
+    "lon": 121.513,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 558,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 90,
+    "date": "2015-12-14",
+    "lon": 121.513,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 558,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 32,
+    "date": "2015-12-16",
+    "lon": 121.513,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 559,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 297,
+    "date": "2015-12-09",
+    "lon": 121.523,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 559,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 46,
+    "date": "2015-12-10",
+    "lon": 121.523,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 559,
+    "weiboCount": 12,
+    "userCount": 11,
+    "biFollow": 61.6364,
+    "date": "2015-12-12",
+    "lon": 121.523,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 559,
+    "weiboCount": 9,
+    "userCount": 9,
+    "biFollow": 219.7778,
+    "date": "2015-12-14",
+    "lon": 121.523,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 559,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 248,
+    "date": "2015-12-15",
+    "lon": 121.523,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 559,
+    "weiboCount": 12,
+    "userCount": 7,
+    "biFollow": 39,
+    "date": "2015-12-16",
+    "lon": 121.523,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 560,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 88,
+    "date": "2015-12-09",
+    "lon": 121.533,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 560,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 77,
+    "date": "2015-12-10",
+    "lon": 121.533,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 560,
+    "weiboCount": 11,
+    "userCount": 10,
+    "biFollow": 34,
+    "date": "2015-12-12",
+    "lon": 121.533,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 560,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 67.3333,
+    "date": "2015-12-14",
+    "lon": 121.533,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 560,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 22,
+    "date": "2015-12-15",
+    "lon": 121.533,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 560,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 36,
+    "date": "2015-12-16",
+    "lon": 121.533,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 563,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 68,
+    "date": "2015-12-09",
+    "lon": 121.563,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 563,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 39,
+    "date": "2015-12-10",
+    "lon": 121.563,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 563,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 13.5,
+    "date": "2015-12-14",
+    "lon": 121.563,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 563,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 33,
+    "date": "2015-12-15",
+    "lon": 121.563,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 563,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 9.6667,
+    "date": "2015-12-16",
+    "lon": 121.563,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 564,
+    "weiboCount": 6,
+    "userCount": 3,
+    "biFollow": 18,
+    "date": "2015-12-09",
+    "lon": 121.573,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 564,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 104.5,
+    "date": "2015-12-10",
+    "lon": 121.573,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 564,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 9.6667,
+    "date": "2015-12-12",
+    "lon": 121.573,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 564,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 62.5,
+    "date": "2015-12-14",
+    "lon": 121.573,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 564,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 335,
+    "date": "2015-12-15",
+    "lon": 121.573,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 564,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 97.6667,
+    "date": "2015-12-16",
+    "lon": 121.573,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 565,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 35.6,
+    "date": "2015-12-09",
+    "lon": 121.583,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 565,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 14.6667,
+    "date": "2015-12-10",
+    "lon": 121.583,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 565,
+    "weiboCount": 9,
+    "userCount": 8,
+    "biFollow": 224.75,
+    "date": "2015-12-12",
+    "lon": 121.583,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 565,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 161.5,
+    "date": "2015-12-14",
+    "lon": 121.583,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 565,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 30.4,
+    "date": "2015-12-15",
+    "lon": 121.583,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 565,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 35.8,
+    "date": "2015-12-16",
+    "lon": 121.583,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 566,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 44.5,
+    "date": "2015-12-09",
+    "lon": 121.593,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 566,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 62,
+    "date": "2015-12-10",
+    "lon": 121.593,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 566,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 126.5,
+    "date": "2015-12-12",
+    "lon": 121.593,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 566,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 108.25,
+    "date": "2015-12-14",
+    "lon": 121.593,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 566,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 47.3333,
+    "date": "2015-12-15",
+    "lon": 121.593,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 566,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 80,
+    "date": "2015-12-16",
+    "lon": 121.593,
+    "lat": 31.3359,
+    "district": "pudong"
+  },
+  {
+    "gridID": 567,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 34,
+    "date": "2015-12-09",
+    "lon": 121.333,
+    "lat": 31.3459,
+    "district": "jiading"
+  },
+  {
+    "gridID": 568,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 14.5,
+    "date": "2015-12-09",
+    "lon": 121.343,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 568,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 181,
+    "date": "2015-12-14",
+    "lon": 121.343,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 568,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 150,
+    "date": "2015-12-16",
+    "lon": 121.343,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 569,
+    "weiboCount": 9,
+    "userCount": 7,
+    "biFollow": 52.1429,
+    "date": "2015-12-09",
+    "lon": 121.353,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 569,
+    "weiboCount": 10,
+    "userCount": 6,
+    "biFollow": 36.1667,
+    "date": "2015-12-10",
+    "lon": 121.353,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 569,
+    "weiboCount": 10,
+    "userCount": 9,
+    "biFollow": 86.3333,
+    "date": "2015-12-12",
+    "lon": 121.353,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 569,
+    "weiboCount": 10,
+    "userCount": 9,
+    "biFollow": 55.8889,
+    "date": "2015-12-14",
+    "lon": 121.353,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 569,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 36.5,
+    "date": "2015-12-15",
+    "lon": 121.353,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 569,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 131.5,
+    "date": "2015-12-16",
+    "lon": 121.353,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 570,
+    "weiboCount": 14,
+    "userCount": 7,
+    "biFollow": 457.7143,
+    "date": "2015-12-09",
+    "lon": 121.363,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 570,
+    "weiboCount": 9,
+    "userCount": 6,
+    "biFollow": 508,
+    "date": "2015-12-10",
+    "lon": 121.363,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 570,
+    "weiboCount": 25,
+    "userCount": 15,
+    "biFollow": 469.6667,
+    "date": "2015-12-12",
+    "lon": 121.363,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 570,
+    "weiboCount": 19,
+    "userCount": 19,
+    "biFollow": 94.2105,
+    "date": "2015-12-14",
+    "lon": 121.363,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 570,
+    "weiboCount": 15,
+    "userCount": 14,
+    "biFollow": 179.2857,
+    "date": "2015-12-15",
+    "lon": 121.363,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 570,
+    "weiboCount": 18,
+    "userCount": 14,
+    "biFollow": 325,
+    "date": "2015-12-16",
+    "lon": 121.363,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 571,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-09",
+    "lon": 121.373,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 571,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 180.5,
+    "date": "2015-12-12",
+    "lon": 121.373,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 571,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 67,
+    "date": "2015-12-14",
+    "lon": 121.373,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 571,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 17.5,
+    "date": "2015-12-15",
+    "lon": 121.373,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 571,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 36,
+    "date": "2015-12-16",
+    "lon": 121.373,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 572,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 30,
+    "date": "2015-12-09",
+    "lon": 121.383,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 572,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 119,
+    "date": "2015-12-12",
+    "lon": 121.383,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 572,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-16",
+    "lon": 121.383,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 573,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 14,
+    "date": "2015-12-09",
+    "lon": 121.393,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 573,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 98.6667,
+    "date": "2015-12-10",
+    "lon": 121.393,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 573,
+    "weiboCount": 9,
+    "userCount": 7,
+    "biFollow": 95.5714,
+    "date": "2015-12-12",
+    "lon": 121.393,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 573,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 136.8,
+    "date": "2015-12-14",
+    "lon": 121.393,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 573,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 40,
+    "date": "2015-12-15",
+    "lon": 121.393,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 573,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 97.1429,
+    "date": "2015-12-16",
+    "lon": 121.393,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 574,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 287,
+    "date": "2015-12-12",
+    "lon": 121.403,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 574,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-15",
+    "lon": 121.403,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 575,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 130,
+    "date": "2015-12-10",
+    "lon": 121.413,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 575,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 128,
+    "date": "2015-12-14",
+    "lon": 121.413,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 575,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 24,
+    "date": "2015-12-16",
+    "lon": 121.413,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 576,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 140.6,
+    "date": "2015-12-09",
+    "lon": 121.423,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 576,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 46,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 576,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 111.8,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 576,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 74.6667,
+    "date": "2015-12-14",
+    "lon": 121.423,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 576,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 57,
+    "date": "2015-12-15",
+    "lon": 121.423,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 576,
+    "weiboCount": 8,
+    "userCount": 6,
+    "biFollow": 79.6667,
+    "date": "2015-12-16",
+    "lon": 121.423,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 577,
+    "weiboCount": 9,
+    "userCount": 8,
+    "biFollow": 50.625,
+    "date": "2015-12-09",
+    "lon": 121.433,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 577,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 44.5714,
+    "date": "2015-12-10",
+    "lon": 121.433,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 577,
+    "weiboCount": 10,
+    "userCount": 9,
+    "biFollow": 69.8889,
+    "date": "2015-12-12",
+    "lon": 121.433,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 577,
+    "weiboCount": 18,
+    "userCount": 13,
+    "biFollow": 119.0769,
+    "date": "2015-12-14",
+    "lon": 121.433,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 577,
+    "weiboCount": 10,
+    "userCount": 7,
+    "biFollow": 91,
+    "date": "2015-12-15",
+    "lon": 121.433,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 577,
+    "weiboCount": 11,
+    "userCount": 10,
+    "biFollow": 57.7,
+    "date": "2015-12-16",
+    "lon": 121.433,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 578,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 13.6,
+    "date": "2015-12-09",
+    "lon": 121.443,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 578,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 38,
+    "date": "2015-12-10",
+    "lon": 121.443,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 578,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 33.3333,
+    "date": "2015-12-12",
+    "lon": 121.443,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 578,
+    "weiboCount": 7,
+    "userCount": 5,
+    "biFollow": 165.6,
+    "date": "2015-12-14",
+    "lon": 121.443,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 578,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 118.75,
+    "date": "2015-12-15",
+    "lon": 121.443,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 578,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 379,
+    "date": "2015-12-16",
+    "lon": 121.443,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 579,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 63.2,
+    "date": "2015-12-10",
+    "lon": 121.453,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 579,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 276,
+    "date": "2015-12-12",
+    "lon": 121.453,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 579,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 91.5,
+    "date": "2015-12-14",
+    "lon": 121.453,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 579,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 151,
+    "date": "2015-12-15",
+    "lon": 121.453,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 579,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-16",
+    "lon": 121.453,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 580,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 31,
+    "date": "2015-12-14",
+    "lon": 121.463,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 580,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 28,
+    "date": "2015-12-16",
+    "lon": 121.463,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 581,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 111.3333,
+    "date": "2015-12-09",
+    "lon": 121.473,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 581,
+    "weiboCount": 10,
+    "userCount": 3,
+    "biFollow": 122.6667,
+    "date": "2015-12-10",
+    "lon": 121.473,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 581,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 89,
+    "date": "2015-12-12",
+    "lon": 121.473,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 581,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 41.5,
+    "date": "2015-12-14",
+    "lon": 121.473,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 581,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 76.25,
+    "date": "2015-12-15",
+    "lon": 121.473,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 581,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 45.3333,
+    "date": "2015-12-16",
+    "lon": 121.473,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 582,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 371.125,
+    "date": "2015-12-09",
+    "lon": 121.483,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 582,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 247.4286,
+    "date": "2015-12-10",
+    "lon": 121.483,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 582,
+    "weiboCount": 15,
+    "userCount": 14,
+    "biFollow": 148.0714,
+    "date": "2015-12-12",
+    "lon": 121.483,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 582,
+    "weiboCount": 15,
+    "userCount": 14,
+    "biFollow": 295.4286,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 582,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 62,
+    "date": "2015-12-15",
+    "lon": 121.483,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 582,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 335,
+    "date": "2015-12-16",
+    "lon": 121.483,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 583,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 327.1667,
+    "date": "2015-12-09",
+    "lon": 121.493,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 583,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 498,
+    "date": "2015-12-10",
+    "lon": 121.493,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 583,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 102,
+    "date": "2015-12-12",
+    "lon": 121.493,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 583,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 95,
+    "date": "2015-12-14",
+    "lon": 121.493,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 583,
+    "weiboCount": 6,
+    "userCount": 4,
+    "biFollow": 87.75,
+    "date": "2015-12-15",
+    "lon": 121.493,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 583,
+    "weiboCount": 9,
+    "userCount": 9,
+    "biFollow": 116,
+    "date": "2015-12-16",
+    "lon": 121.493,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 584,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 125,
+    "date": "2015-12-12",
+    "lon": 121.503,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 584,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-14",
+    "lon": 121.503,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 585,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 100,
+    "date": "2015-12-09",
+    "lon": 121.513,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 585,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 6,
+    "date": "2015-12-10",
+    "lon": 121.513,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 585,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 118,
+    "date": "2015-12-12",
+    "lon": 121.513,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 585,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 103.5,
+    "date": "2015-12-14",
+    "lon": 121.513,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 585,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 187,
+    "date": "2015-12-15",
+    "lon": 121.513,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 585,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 207,
+    "date": "2015-12-16",
+    "lon": 121.513,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 586,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 17,
+    "date": "2015-12-12",
+    "lon": 121.523,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 586,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 76,
+    "date": "2015-12-15",
+    "lon": 121.523,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 586,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 24,
+    "date": "2015-12-16",
+    "lon": 121.523,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 587,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 61,
+    "date": "2015-12-16",
+    "lon": 121.533,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 590,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 19.6,
+    "date": "2015-12-09",
+    "lon": 121.563,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 590,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 7,
+    "date": "2015-12-10",
+    "lon": 121.563,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 590,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 20.75,
+    "date": "2015-12-12",
+    "lon": 121.563,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 590,
+    "weiboCount": 7,
+    "userCount": 5,
+    "biFollow": 75.2,
+    "date": "2015-12-14",
+    "lon": 121.563,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 590,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 30.3333,
+    "date": "2015-12-15",
+    "lon": 121.563,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 590,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 102.6,
+    "date": "2015-12-16",
+    "lon": 121.563,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 591,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 4.5,
+    "date": "2015-12-09",
+    "lon": 121.573,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 591,
+    "weiboCount": 9,
+    "userCount": 8,
+    "biFollow": 74,
+    "date": "2015-12-10",
+    "lon": 121.573,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 591,
+    "weiboCount": 12,
+    "userCount": 12,
+    "biFollow": 43.5833,
+    "date": "2015-12-12",
+    "lon": 121.573,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 591,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 52.75,
+    "date": "2015-12-14",
+    "lon": 121.573,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 591,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 15.5,
+    "date": "2015-12-15",
+    "lon": 121.573,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 591,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 73.5,
+    "date": "2015-12-16",
+    "lon": 121.573,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 592,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 62,
+    "date": "2015-12-09",
+    "lon": 121.583,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 592,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 131.3333,
+    "date": "2015-12-10",
+    "lon": 121.583,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 592,
+    "weiboCount": 11,
+    "userCount": 10,
+    "biFollow": 26.1,
+    "date": "2015-12-12",
+    "lon": 121.583,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 592,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 48.8571,
+    "date": "2015-12-14",
+    "lon": 121.583,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 592,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 28.3333,
+    "date": "2015-12-15",
+    "lon": 121.583,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 592,
+    "weiboCount": 10,
+    "userCount": 7,
+    "biFollow": 63.1429,
+    "date": "2015-12-16",
+    "lon": 121.583,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 593,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 275,
+    "date": "2015-12-09",
+    "lon": 121.593,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 593,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 37,
+    "date": "2015-12-10",
+    "lon": 121.593,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 593,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 17,
+    "date": "2015-12-14",
+    "lon": 121.593,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 593,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 46,
+    "date": "2015-12-15",
+    "lon": 121.593,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 593,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 166.5,
+    "date": "2015-12-16",
+    "lon": 121.593,
+    "lat": 31.3459,
+    "district": "pudong"
+  },
+  {
+    "gridID": 594,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 0.5,
+    "date": "2015-12-15",
+    "lon": 121.333,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 595,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 234,
+    "date": "2015-12-09",
+    "lon": 121.343,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 595,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 99,
+    "date": "2015-12-12",
+    "lon": 121.343,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 595,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 10,
+    "date": "2015-12-14",
+    "lon": 121.343,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 595,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 5,
+    "date": "2015-12-15",
+    "lon": 121.343,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 596,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 17.8,
+    "date": "2015-12-09",
+    "lon": 121.353,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 596,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 26,
+    "date": "2015-12-10",
+    "lon": 121.353,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 596,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 191.75,
+    "date": "2015-12-12",
+    "lon": 121.353,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 596,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 15,
+    "date": "2015-12-14",
+    "lon": 121.353,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 596,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 95,
+    "date": "2015-12-15",
+    "lon": 121.353,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 597,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 63.3333,
+    "date": "2015-12-09",
+    "lon": 121.363,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 597,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 43.5,
+    "date": "2015-12-10",
+    "lon": 121.363,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 597,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 92.75,
+    "date": "2015-12-12",
+    "lon": 121.363,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 597,
+    "weiboCount": 7,
+    "userCount": 5,
+    "biFollow": 71.6,
+    "date": "2015-12-14",
+    "lon": 121.363,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 597,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 59.6,
+    "date": "2015-12-15",
+    "lon": 121.363,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 597,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 17.75,
+    "date": "2015-12-16",
+    "lon": 121.363,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 598,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 57,
+    "date": "2015-12-09",
+    "lon": 121.373,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 598,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 58,
+    "date": "2015-12-10",
+    "lon": 121.373,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 598,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 156.875,
+    "date": "2015-12-12",
+    "lon": 121.373,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 598,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 135,
+    "date": "2015-12-14",
+    "lon": 121.373,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 598,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 39,
+    "date": "2015-12-15",
+    "lon": 121.373,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 598,
+    "weiboCount": 11,
+    "userCount": 7,
+    "biFollow": 156.2857,
+    "date": "2015-12-16",
+    "lon": 121.373,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 599,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 50.3333,
+    "date": "2015-12-09",
+    "lon": 121.383,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 599,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 49.5714,
+    "date": "2015-12-10",
+    "lon": 121.383,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 599,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 68.1429,
+    "date": "2015-12-12",
+    "lon": 121.383,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 599,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 41.5,
+    "date": "2015-12-14",
+    "lon": 121.383,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 599,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 48.8333,
+    "date": "2015-12-15",
+    "lon": 121.383,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 599,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 115.4286,
+    "date": "2015-12-16",
+    "lon": 121.383,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 600,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 88,
+    "date": "2015-12-09",
+    "lon": 121.393,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 600,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 4,
+    "date": "2015-12-10",
+    "lon": 121.393,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 600,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 24,
+    "date": "2015-12-12",
+    "lon": 121.393,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 600,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 26.6667,
+    "date": "2015-12-14",
+    "lon": 121.393,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 601,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 262.8333,
+    "date": "2015-12-09",
+    "lon": 121.403,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 601,
+    "weiboCount": 12,
+    "userCount": 6,
+    "biFollow": 447.6667,
+    "date": "2015-12-10",
+    "lon": 121.403,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 601,
+    "weiboCount": 23,
+    "userCount": 6,
+    "biFollow": 52.8333,
+    "date": "2015-12-12",
+    "lon": 121.403,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 601,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 20.7143,
+    "date": "2015-12-14",
+    "lon": 121.403,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 601,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 571.8333,
+    "date": "2015-12-15",
+    "lon": 121.403,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 601,
+    "weiboCount": 6,
+    "userCount": 4,
+    "biFollow": 68,
+    "date": "2015-12-16",
+    "lon": 121.403,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 602,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 42.3333,
+    "date": "2015-12-09",
+    "lon": 121.413,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 602,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 186.8,
+    "date": "2015-12-10",
+    "lon": 121.413,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 602,
+    "weiboCount": 9,
+    "userCount": 8,
+    "biFollow": 87.25,
+    "date": "2015-12-12",
+    "lon": 121.413,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 602,
+    "weiboCount": 6,
+    "userCount": 1,
+    "biFollow": 198,
+    "date": "2015-12-14",
+    "lon": 121.413,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 602,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 61.6667,
+    "date": "2015-12-15",
+    "lon": 121.413,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 602,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 113.75,
+    "date": "2015-12-16",
+    "lon": 121.413,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 603,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 62.3333,
+    "date": "2015-12-09",
+    "lon": 121.423,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 603,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 123,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 603,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 24,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 603,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 351.75,
+    "date": "2015-12-14",
+    "lon": 121.423,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 603,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-16",
+    "lon": 121.423,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 604,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 34,
+    "date": "2015-12-09",
+    "lon": 121.433,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 604,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 120.5,
+    "date": "2015-12-12",
+    "lon": 121.433,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 604,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 105,
+    "date": "2015-12-14",
+    "lon": 121.433,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 604,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 1035,
+    "date": "2015-12-15",
+    "lon": 121.433,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 604,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 6.5,
+    "date": "2015-12-16",
+    "lon": 121.433,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 605,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 311.5,
+    "date": "2015-12-12",
+    "lon": 121.443,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 605,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 42,
+    "date": "2015-12-14",
+    "lon": 121.443,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 605,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 26,
+    "date": "2015-12-15",
+    "lon": 121.443,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 605,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 24,
+    "date": "2015-12-16",
+    "lon": 121.443,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 606,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 28,
+    "date": "2015-12-12",
+    "lon": 121.453,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 606,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1,
+    "date": "2015-12-14",
+    "lon": 121.453,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 607,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-14",
+    "lon": 121.463,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 609,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 63,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 610,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 35,
+    "date": "2015-12-09",
+    "lon": 121.493,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 610,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 60.5,
+    "date": "2015-12-12",
+    "lon": 121.493,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 610,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 78,
+    "date": "2015-12-14",
+    "lon": 121.493,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 610,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 49.5,
+    "date": "2015-12-15",
+    "lon": 121.493,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 610,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 43,
+    "date": "2015-12-16",
+    "lon": 121.493,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 611,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 60,
+    "date": "2015-12-16",
+    "lon": 121.503,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 612,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-12",
+    "lon": 121.513,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 612,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-14",
+    "lon": 121.513,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 615,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 22,
+    "date": "2015-12-14",
+    "lon": 121.543,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 616,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 244,
+    "date": "2015-12-10",
+    "lon": 121.553,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 616,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 54,
+    "date": "2015-12-12",
+    "lon": 121.553,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 616,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-15",
+    "lon": 121.553,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 616,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 47,
+    "date": "2015-12-16",
+    "lon": 121.553,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 617,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-09",
+    "lon": 121.563,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 617,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 61,
+    "date": "2015-12-10",
+    "lon": 121.563,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 617,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 20.5,
+    "date": "2015-12-12",
+    "lon": 121.563,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 617,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 29,
+    "date": "2015-12-14",
+    "lon": 121.563,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 617,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 29,
+    "date": "2015-12-15",
+    "lon": 121.563,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 617,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 5,
+    "date": "2015-12-16",
+    "lon": 121.563,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 618,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 238,
+    "date": "2015-12-09",
+    "lon": 121.573,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 618,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 133,
+    "date": "2015-12-10",
+    "lon": 121.573,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 618,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 21.5,
+    "date": "2015-12-12",
+    "lon": 121.573,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 618,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 130,
+    "date": "2015-12-14",
+    "lon": 121.573,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 618,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 273,
+    "date": "2015-12-15",
+    "lon": 121.573,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 618,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 85,
+    "date": "2015-12-16",
+    "lon": 121.573,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 619,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 430,
+    "date": "2015-12-09",
+    "lon": 121.583,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 619,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 162.6667,
+    "date": "2015-12-10",
+    "lon": 121.583,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 619,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 12,
+    "date": "2015-12-12",
+    "lon": 121.583,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 619,
+    "weiboCount": 7,
+    "userCount": 5,
+    "biFollow": 20.2,
+    "date": "2015-12-14",
+    "lon": 121.583,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 619,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 26.5,
+    "date": "2015-12-15",
+    "lon": 121.583,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 619,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 163,
+    "date": "2015-12-16",
+    "lon": 121.583,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 620,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-16",
+    "lon": 121.593,
+    "lat": 31.3559,
+    "district": "pudong"
+  },
+  {
+    "gridID": 621,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 108,
+    "date": "2015-12-15",
+    "lon": 121.333,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 622,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 56,
+    "date": "2015-12-14",
+    "lon": 121.343,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 622,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 3,
+    "date": "2015-12-16",
+    "lon": 121.343,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 623,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 116,
+    "date": "2015-12-10",
+    "lon": 121.353,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 623,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 81.5,
+    "date": "2015-12-12",
+    "lon": 121.353,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 623,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 61.3333,
+    "date": "2015-12-14",
+    "lon": 121.353,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 623,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 23,
+    "date": "2015-12-15",
+    "lon": 121.353,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 624,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 60.8,
+    "date": "2015-12-09",
+    "lon": 121.363,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 624,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 152,
+    "date": "2015-12-10",
+    "lon": 121.363,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 624,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 97.125,
+    "date": "2015-12-12",
+    "lon": 121.363,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 624,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 75.2857,
+    "date": "2015-12-14",
+    "lon": 121.363,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 624,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 6,
+    "date": "2015-12-15",
+    "lon": 121.363,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 624,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 69.6667,
+    "date": "2015-12-16",
+    "lon": 121.363,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 625,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 3,
+    "date": "2015-12-09",
+    "lon": 121.373,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 625,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-10",
+    "lon": 121.373,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 625,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 20.6667,
+    "date": "2015-12-12",
+    "lon": 121.373,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 625,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1,
+    "date": "2015-12-14",
+    "lon": 121.373,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 625,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1,
+    "date": "2015-12-15",
+    "lon": 121.373,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 626,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 35,
+    "date": "2015-12-09",
+    "lon": 121.383,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 627,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 96,
+    "date": "2015-12-09",
+    "lon": 121.393,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 627,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 79,
+    "date": "2015-12-12",
+    "lon": 121.393,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 628,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 115,
+    "date": "2015-12-09",
+    "lon": 121.403,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 628,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 87.6667,
+    "date": "2015-12-12",
+    "lon": 121.403,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 628,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 143.75,
+    "date": "2015-12-14",
+    "lon": 121.403,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 628,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 146,
+    "date": "2015-12-15",
+    "lon": 121.403,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 628,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 74,
+    "date": "2015-12-16",
+    "lon": 121.403,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 629,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 65.6,
+    "date": "2015-12-12",
+    "lon": 121.413,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 629,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 6,
+    "date": "2015-12-14",
+    "lon": 121.413,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 629,
+    "weiboCount": 17,
+    "userCount": 4,
+    "biFollow": 1550.5,
+    "date": "2015-12-15",
+    "lon": 121.413,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 629,
+    "weiboCount": 18,
+    "userCount": 4,
+    "biFollow": 1971.75,
+    "date": "2015-12-16",
+    "lon": 121.413,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 630,
+    "weiboCount": 13,
+    "userCount": 11,
+    "biFollow": 202.1818,
+    "date": "2015-12-09",
+    "lon": 121.423,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 630,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 110.1667,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 630,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 68.625,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 630,
+    "weiboCount": 14,
+    "userCount": 13,
+    "biFollow": 244.4615,
+    "date": "2015-12-14",
+    "lon": 121.423,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 630,
+    "weiboCount": 10,
+    "userCount": 8,
+    "biFollow": 179.375,
+    "date": "2015-12-15",
+    "lon": 121.423,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 630,
+    "weiboCount": 14,
+    "userCount": 13,
+    "biFollow": 74.3077,
+    "date": "2015-12-16",
+    "lon": 121.423,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 631,
+    "weiboCount": 11,
+    "userCount": 10,
+    "biFollow": 107.2,
+    "date": "2015-12-09",
+    "lon": 121.433,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 631,
+    "weiboCount": 11,
+    "userCount": 10,
+    "biFollow": 151.5,
+    "date": "2015-12-10",
+    "lon": 121.433,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 631,
+    "weiboCount": 14,
+    "userCount": 13,
+    "biFollow": 59.6923,
+    "date": "2015-12-12",
+    "lon": 121.433,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 631,
+    "weiboCount": 19,
+    "userCount": 19,
+    "biFollow": 76.1579,
+    "date": "2015-12-14",
+    "lon": 121.433,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 631,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 308,
+    "date": "2015-12-15",
+    "lon": 121.433,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 631,
+    "weiboCount": 16,
+    "userCount": 15,
+    "biFollow": 110.8,
+    "date": "2015-12-16",
+    "lon": 121.433,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 632,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-10",
+    "lon": 121.443,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 632,
+    "weiboCount": 8,
+    "userCount": 7,
+    "biFollow": 74.2857,
+    "date": "2015-12-12",
+    "lon": 121.443,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 632,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 140,
+    "date": "2015-12-14",
+    "lon": 121.443,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 632,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 121,
+    "date": "2015-12-15",
+    "lon": 121.443,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 632,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 21,
+    "date": "2015-12-16",
+    "lon": 121.443,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 633,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 11,
+    "date": "2015-12-12",
+    "lon": 121.453,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 633,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-16",
+    "lon": 121.453,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 636,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-09",
+    "lon": 121.483,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 636,
+    "weiboCount": 5,
+    "userCount": 3,
+    "biFollow": 110.6667,
+    "date": "2015-12-10",
+    "lon": 121.483,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 636,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 289,
+    "date": "2015-12-12",
+    "lon": 121.483,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 636,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 50.6667,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 636,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 64,
+    "date": "2015-12-15",
+    "lon": 121.483,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 636,
+    "weiboCount": 9,
+    "userCount": 4,
+    "biFollow": 31.25,
+    "date": "2015-12-16",
+    "lon": 121.483,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 637,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 37.5,
+    "date": "2015-12-09",
+    "lon": 121.493,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 637,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 34.5,
+    "date": "2015-12-12",
+    "lon": 121.493,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 637,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 3.5,
+    "date": "2015-12-16",
+    "lon": 121.493,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 639,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 287,
+    "date": "2015-12-12",
+    "lon": 121.513,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 639,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 77,
+    "date": "2015-12-14",
+    "lon": 121.513,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 640,
+    "weiboCount": 6,
+    "userCount": 3,
+    "biFollow": 542.6667,
+    "date": "2015-12-09",
+    "lon": 121.523,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 640,
+    "weiboCount": 14,
+    "userCount": 1,
+    "biFollow": 1330,
+    "date": "2015-12-10",
+    "lon": 121.523,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 640,
+    "weiboCount": 12,
+    "userCount": 4,
+    "biFollow": 528.25,
+    "date": "2015-12-14",
+    "lon": 121.523,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 640,
+    "weiboCount": 18,
+    "userCount": 4,
+    "biFollow": 888,
+    "date": "2015-12-15",
+    "lon": 121.523,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 640,
+    "weiboCount": 10,
+    "userCount": 2,
+    "biFollow": 946,
+    "date": "2015-12-16",
+    "lon": 121.523,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 641,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-12",
+    "lon": 121.533,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 641,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 2,
+    "date": "2015-12-15",
+    "lon": 121.533,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 641,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 211.2,
+    "date": "2015-12-16",
+    "lon": 121.533,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 642,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 26.5,
+    "date": "2015-12-14",
+    "lon": 121.543,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 642,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 3,
+    "date": "2015-12-15",
+    "lon": 121.543,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 643,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 7,
+    "date": "2015-12-14",
+    "lon": 121.553,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 643,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 14,
+    "date": "2015-12-16",
+    "lon": 121.553,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 644,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 173,
+    "date": "2015-12-12",
+    "lon": 121.563,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 645,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 140,
+    "date": "2015-12-15",
+    "lon": 121.573,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 646,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 300,
+    "date": "2015-12-15",
+    "lon": 121.583,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 647,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 35,
+    "date": "2015-12-10",
+    "lon": 121.593,
+    "lat": 31.3659,
+    "district": "pudong"
+  },
+  {
+    "gridID": 648,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-16",
+    "lon": 121.333,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 649,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 238,
+    "date": "2015-12-12",
+    "lon": 121.343,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 650,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-16",
+    "lon": 121.353,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 651,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 5,
+    "date": "2015-12-10",
+    "lon": 121.363,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 651,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 13,
+    "date": "2015-12-12",
+    "lon": 121.363,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 651,
+    "weiboCount": 5,
+    "userCount": 3,
+    "biFollow": 5.3333,
+    "date": "2015-12-14",
+    "lon": 121.363,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 651,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 24,
+    "date": "2015-12-15",
+    "lon": 121.363,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 651,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-16",
+    "lon": 121.363,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 652,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 13,
+    "date": "2015-12-12",
+    "lon": 121.373,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 653,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 28,
+    "date": "2015-12-12",
+    "lon": 121.383,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 653,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 6,
+    "date": "2015-12-15",
+    "lon": 121.383,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 654,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 874,
+    "date": "2015-12-12",
+    "lon": 121.393,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 654,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 437,
+    "date": "2015-12-16",
+    "lon": 121.393,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 655,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 54,
+    "date": "2015-12-10",
+    "lon": 121.403,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 655,
+    "weiboCount": 15,
+    "userCount": 1,
+    "biFollow": 6555,
+    "date": "2015-12-12",
+    "lon": 121.403,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 655,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 503.5,
+    "date": "2015-12-14",
+    "lon": 121.403,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 655,
+    "weiboCount": 8,
+    "userCount": 2,
+    "biFollow": 1549.5,
+    "date": "2015-12-15",
+    "lon": 121.403,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 655,
+    "weiboCount": 47,
+    "userCount": 1,
+    "biFollow": 20539,
+    "date": "2015-12-16",
+    "lon": 121.403,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 656,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 42,
+    "date": "2015-12-09",
+    "lon": 121.413,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 656,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 26.6667,
+    "date": "2015-12-12",
+    "lon": 121.413,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 656,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-14",
+    "lon": 121.413,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 656,
+    "weiboCount": 11,
+    "userCount": 1,
+    "biFollow": 4807,
+    "date": "2015-12-15",
+    "lon": 121.413,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 656,
+    "weiboCount": 8,
+    "userCount": 1,
+    "biFollow": 3496,
+    "date": "2015-12-16",
+    "lon": 121.413,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 657,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 46,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 657,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 38,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 657,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 85,
+    "date": "2015-12-14",
+    "lon": 121.423,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 657,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 24,
+    "date": "2015-12-15",
+    "lon": 121.423,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 658,
+    "weiboCount": 8,
+    "userCount": 6,
+    "biFollow": 83.1667,
+    "date": "2015-12-09",
+    "lon": 121.433,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 658,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 5,
+    "date": "2015-12-10",
+    "lon": 121.433,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 658,
+    "weiboCount": 12,
+    "userCount": 11,
+    "biFollow": 105.7273,
+    "date": "2015-12-12",
+    "lon": 121.433,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 658,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 278.3333,
+    "date": "2015-12-14",
+    "lon": 121.433,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 658,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 81.2,
+    "date": "2015-12-16",
+    "lon": 121.433,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 659,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 98.3333,
+    "date": "2015-12-09",
+    "lon": 121.443,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 659,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 23,
+    "date": "2015-12-10",
+    "lon": 121.443,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 659,
+    "weiboCount": 7,
+    "userCount": 3,
+    "biFollow": 359.6667,
+    "date": "2015-12-12",
+    "lon": 121.443,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 659,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 74,
+    "date": "2015-12-14",
+    "lon": 121.443,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 659,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 92,
+    "date": "2015-12-16",
+    "lon": 121.443,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 660,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1,
+    "date": "2015-12-14",
+    "lon": 121.453,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 661,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 16,
+    "date": "2015-12-14",
+    "lon": 121.463,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 661,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 47,
+    "date": "2015-12-16",
+    "lon": 121.463,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 662,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 28,
+    "date": "2015-12-14",
+    "lon": 121.473,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 662,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-16",
+    "lon": 121.473,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 663,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-09",
+    "lon": 121.483,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 663,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 224,
+    "date": "2015-12-10",
+    "lon": 121.483,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 663,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 43.875,
+    "date": "2015-12-12",
+    "lon": 121.483,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 663,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 37.5,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 663,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 42.5,
+    "date": "2015-12-15",
+    "lon": 121.483,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 663,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 20.5,
+    "date": "2015-12-16",
+    "lon": 121.483,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 664,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 56,
+    "date": "2015-12-09",
+    "lon": 121.493,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 664,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 35.5,
+    "date": "2015-12-10",
+    "lon": 121.493,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 664,
+    "weiboCount": 17,
+    "userCount": 17,
+    "biFollow": 102.0588,
+    "date": "2015-12-12",
+    "lon": 121.493,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 664,
+    "weiboCount": 12,
+    "userCount": 11,
+    "biFollow": 67.7273,
+    "date": "2015-12-14",
+    "lon": 121.493,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 664,
+    "weiboCount": 10,
+    "userCount": 9,
+    "biFollow": 77.5556,
+    "date": "2015-12-15",
+    "lon": 121.493,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 664,
+    "weiboCount": 9,
+    "userCount": 8,
+    "biFollow": 46.125,
+    "date": "2015-12-16",
+    "lon": 121.493,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 666,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1,
+    "date": "2015-12-10",
+    "lon": 121.513,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 666,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 232,
+    "date": "2015-12-16",
+    "lon": 121.513,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 668,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 380,
+    "date": "2015-12-09",
+    "lon": 121.533,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 668,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 190,
+    "date": "2015-12-12",
+    "lon": 121.533,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 668,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1,
+    "date": "2015-12-14",
+    "lon": 121.533,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 668,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 22,
+    "date": "2015-12-16",
+    "lon": 121.533,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 669,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 164,
+    "date": "2015-12-14",
+    "lon": 121.543,
+    "lat": 31.3759,
+    "district": "pudong"
+  },
+  {
+    "gridID": 674,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 3,
+    "date": "2015-12-09",
+    "lon": 121.333,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 674,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 38,
+    "date": "2015-12-14",
+    "lon": 121.333,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 674,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 42,
+    "date": "2015-12-16",
+    "lon": 121.333,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 675,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 22,
+    "date": "2015-12-09",
+    "lon": 121.343,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 676,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 39,
+    "date": "2015-12-09",
+    "lon": 121.353,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 676,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 105.5,
+    "date": "2015-12-12",
+    "lon": 121.353,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 676,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 16.5,
+    "date": "2015-12-14",
+    "lon": 121.353,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 676,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 11,
+    "date": "2015-12-15",
+    "lon": 121.353,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 676,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 35.5,
+    "date": "2015-12-16",
+    "lon": 121.353,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 677,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 109,
+    "date": "2015-12-10",
+    "lon": 121.363,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 677,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 9.3333,
+    "date": "2015-12-12",
+    "lon": 121.363,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 677,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 427,
+    "date": "2015-12-14",
+    "lon": 121.363,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 677,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 264.4,
+    "date": "2015-12-15",
+    "lon": 121.363,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 677,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-16",
+    "lon": 121.363,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 678,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-14",
+    "lon": 121.373,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 679,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-09",
+    "lon": 121.383,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 679,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-10",
+    "lon": 121.383,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 679,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-12",
+    "lon": 121.383,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 679,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 12,
+    "date": "2015-12-15",
+    "lon": 121.383,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 679,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 6,
+    "date": "2015-12-16",
+    "lon": 121.383,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 680,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 90,
+    "date": "2015-12-10",
+    "lon": 121.393,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 681,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 6,
+    "date": "2015-12-12",
+    "lon": 121.403,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 681,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 42.5,
+    "date": "2015-12-16",
+    "lon": 121.403,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 682,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 18,
+    "date": "2015-12-09",
+    "lon": 121.413,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 682,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 56,
+    "date": "2015-12-10",
+    "lon": 121.413,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 682,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 329,
+    "date": "2015-12-14",
+    "lon": 121.413,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 682,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 30,
+    "date": "2015-12-15",
+    "lon": 121.413,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 683,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 56,
+    "date": "2015-12-09",
+    "lon": 121.423,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 683,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 71,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 683,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 17,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 684,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 713,
+    "date": "2015-12-09",
+    "lon": 121.433,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 684,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 116,
+    "date": "2015-12-12",
+    "lon": 121.433,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 684,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 381,
+    "date": "2015-12-14",
+    "lon": 121.433,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 684,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 32.3333,
+    "date": "2015-12-15",
+    "lon": 121.433,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 684,
+    "weiboCount": 10,
+    "userCount": 7,
+    "biFollow": 695.1429,
+    "date": "2015-12-16",
+    "lon": 121.433,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 685,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 115.75,
+    "date": "2015-12-09",
+    "lon": 121.443,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 685,
+    "weiboCount": 8,
+    "userCount": 5,
+    "biFollow": 125,
+    "date": "2015-12-10",
+    "lon": 121.443,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 685,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 1.5,
+    "date": "2015-12-12",
+    "lon": 121.443,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 685,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 82.8333,
+    "date": "2015-12-14",
+    "lon": 121.443,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 685,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 230,
+    "date": "2015-12-15",
+    "lon": 121.443,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 685,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 93.25,
+    "date": "2015-12-16",
+    "lon": 121.443,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 686,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 234.5,
+    "date": "2015-12-09",
+    "lon": 121.453,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 686,
+    "weiboCount": 8,
+    "userCount": 2,
+    "biFollow": 640,
+    "date": "2015-12-10",
+    "lon": 121.453,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 686,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 170,
+    "date": "2015-12-12",
+    "lon": 121.453,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 686,
+    "weiboCount": 6,
+    "userCount": 3,
+    "biFollow": 237,
+    "date": "2015-12-14",
+    "lon": 121.453,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 686,
+    "weiboCount": 13,
+    "userCount": 1,
+    "biFollow": 2288,
+    "date": "2015-12-15",
+    "lon": 121.453,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 687,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 57,
+    "date": "2015-12-10",
+    "lon": 121.463,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 687,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 12,
+    "date": "2015-12-15",
+    "lon": 121.463,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 688,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 21,
+    "date": "2015-12-12",
+    "lon": 121.473,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 689,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 73.8,
+    "date": "2015-12-09",
+    "lon": 121.483,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 689,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 69.5,
+    "date": "2015-12-10",
+    "lon": 121.483,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 689,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 63.3333,
+    "date": "2015-12-12",
+    "lon": 121.483,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 689,
+    "weiboCount": 11,
+    "userCount": 7,
+    "biFollow": 600.5714,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 689,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 250,
+    "date": "2015-12-15",
+    "lon": 121.483,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 689,
+    "weiboCount": 9,
+    "userCount": 7,
+    "biFollow": 144.7143,
+    "date": "2015-12-16",
+    "lon": 121.483,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 690,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 6.25,
+    "date": "2015-12-09",
+    "lon": 121.493,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 690,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 282.6667,
+    "date": "2015-12-10",
+    "lon": 121.493,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 690,
+    "weiboCount": 13,
+    "userCount": 11,
+    "biFollow": 194.0909,
+    "date": "2015-12-12",
+    "lon": 121.493,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 690,
+    "weiboCount": 12,
+    "userCount": 10,
+    "biFollow": 133.1,
+    "date": "2015-12-14",
+    "lon": 121.493,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 690,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 30.75,
+    "date": "2015-12-15",
+    "lon": 121.493,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 690,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 69.875,
+    "date": "2015-12-16",
+    "lon": 121.493,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 692,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1377,
+    "date": "2015-12-10",
+    "lon": 121.513,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 692,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 137,
+    "date": "2015-12-14",
+    "lon": 121.513,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 692,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 152,
+    "date": "2015-12-16",
+    "lon": 121.513,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 693,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 99,
+    "date": "2015-12-16",
+    "lon": 121.523,
+    "lat": 31.3859,
+    "district": "pudong"
+  },
+  {
+    "gridID": 697,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 137.5,
+    "date": "2015-12-12",
+    "lon": 121.333,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 697,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 22.5,
+    "date": "2015-12-14",
+    "lon": 121.333,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 699,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 76,
+    "date": "2015-12-10",
+    "lon": 121.353,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 699,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1,
+    "date": "2015-12-12",
+    "lon": 121.353,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 699,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 97,
+    "date": "2015-12-14",
+    "lon": 121.353,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 699,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 81.5,
+    "date": "2015-12-15",
+    "lon": 121.353,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 699,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 242,
+    "date": "2015-12-16",
+    "lon": 121.353,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 700,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 33.5,
+    "date": "2015-12-12",
+    "lon": 121.363,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 700,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 141,
+    "date": "2015-12-14",
+    "lon": 121.363,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 700,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 16,
+    "date": "2015-12-16",
+    "lon": 121.363,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 701,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 12,
+    "date": "2015-12-14",
+    "lon": 121.373,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 702,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 17,
+    "date": "2015-12-10",
+    "lon": 121.383,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 703,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 24,
+    "date": "2015-12-10",
+    "lon": 121.393,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 703,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 6,
+    "date": "2015-12-15",
+    "lon": 121.393,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 704,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 112,
+    "date": "2015-12-09",
+    "lon": 121.403,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 704,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 224,
+    "date": "2015-12-14",
+    "lon": 121.403,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 705,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 111.6667,
+    "date": "2015-12-12",
+    "lon": 121.413,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 705,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 109.5,
+    "date": "2015-12-14",
+    "lon": 121.413,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 705,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 96,
+    "date": "2015-12-15",
+    "lon": 121.413,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 706,
+    "weiboCount": 5,
+    "userCount": 3,
+    "biFollow": 491,
+    "date": "2015-12-09",
+    "lon": 121.423,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 706,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 119.5,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 706,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 81.8571,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 706,
+    "weiboCount": 8,
+    "userCount": 6,
+    "biFollow": 53.6667,
+    "date": "2015-12-14",
+    "lon": 121.423,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 706,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 638,
+    "date": "2015-12-15",
+    "lon": 121.423,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 706,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 66.25,
+    "date": "2015-12-16",
+    "lon": 121.423,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 707,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 367,
+    "date": "2015-12-09",
+    "lon": 121.433,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 707,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 24,
+    "date": "2015-12-10",
+    "lon": 121.433,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 707,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 148.6667,
+    "date": "2015-12-12",
+    "lon": 121.433,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 707,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 60.6667,
+    "date": "2015-12-16",
+    "lon": 121.433,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 708,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 123.5,
+    "date": "2015-12-09",
+    "lon": 121.443,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 708,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 126.3333,
+    "date": "2015-12-10",
+    "lon": 121.443,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 708,
+    "weiboCount": 12,
+    "userCount": 11,
+    "biFollow": 59.6364,
+    "date": "2015-12-12",
+    "lon": 121.443,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 708,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 91.6667,
+    "date": "2015-12-14",
+    "lon": 121.443,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 708,
+    "weiboCount": 6,
+    "userCount": 3,
+    "biFollow": 10.3333,
+    "date": "2015-12-15",
+    "lon": 121.443,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 708,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 8,
+    "date": "2015-12-16",
+    "lon": 121.443,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 709,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 60.25,
+    "date": "2015-12-09",
+    "lon": 121.453,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 709,
+    "weiboCount": 8,
+    "userCount": 4,
+    "biFollow": 27.25,
+    "date": "2015-12-10",
+    "lon": 121.453,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 709,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 38.6,
+    "date": "2015-12-12",
+    "lon": 121.453,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 709,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 6.3333,
+    "date": "2015-12-14",
+    "lon": 121.453,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 709,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 20.6667,
+    "date": "2015-12-15",
+    "lon": 121.453,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 709,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 24.4,
+    "date": "2015-12-16",
+    "lon": 121.453,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 710,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 13,
+    "date": "2015-12-09",
+    "lon": 121.463,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 710,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-15",
+    "lon": 121.463,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 710,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 70,
+    "date": "2015-12-16",
+    "lon": 121.463,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 711,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 101.5,
+    "date": "2015-12-12",
+    "lon": 121.473,
+    "lat": 31.3959,
+    "district": 0
+  },
+  {
+    "gridID": 711,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 36,
+    "date": "2015-12-14",
+    "lon": 121.473,
+    "lat": 31.3959,
+    "district": 0
+  },
+  {
+    "gridID": 711,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 135.5,
+    "date": "2015-12-15",
+    "lon": 121.473,
+    "lat": 31.3959,
+    "district": 0
+  },
+  {
+    "gridID": 711,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 80.3333,
+    "date": "2015-12-16",
+    "lon": 121.473,
+    "lat": 31.3959,
+    "district": 0
+  },
+  {
+    "gridID": 712,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 110,
+    "date": "2015-12-09",
+    "lon": 121.483,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 712,
+    "weiboCount": 10,
+    "userCount": 10,
+    "biFollow": 114,
+    "date": "2015-12-10",
+    "lon": 121.483,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 712,
+    "weiboCount": 15,
+    "userCount": 14,
+    "biFollow": 121.0714,
+    "date": "2015-12-12",
+    "lon": 121.483,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 712,
+    "weiboCount": 12,
+    "userCount": 11,
+    "biFollow": 84.3636,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 712,
+    "weiboCount": 10,
+    "userCount": 10,
+    "biFollow": 56.6,
+    "date": "2015-12-15",
+    "lon": 121.483,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 712,
+    "weiboCount": 15,
+    "userCount": 13,
+    "biFollow": 166.6923,
+    "date": "2015-12-16",
+    "lon": 121.483,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 713,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 210.375,
+    "date": "2015-12-09",
+    "lon": 121.493,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 713,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 198,
+    "date": "2015-12-10",
+    "lon": 121.493,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 713,
+    "weiboCount": 15,
+    "userCount": 13,
+    "biFollow": 75.6923,
+    "date": "2015-12-12",
+    "lon": 121.493,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 713,
+    "weiboCount": 19,
+    "userCount": 15,
+    "biFollow": 132.8667,
+    "date": "2015-12-14",
+    "lon": 121.493,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 713,
+    "weiboCount": 18,
+    "userCount": 12,
+    "biFollow": 158.75,
+    "date": "2015-12-15",
+    "lon": 121.493,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 713,
+    "weiboCount": 8,
+    "userCount": 8,
+    "biFollow": 35,
+    "date": "2015-12-16",
+    "lon": 121.493,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 714,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 419,
+    "date": "2015-12-09",
+    "lon": 121.503,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 714,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 41,
+    "date": "2015-12-12",
+    "lon": 121.503,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 714,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 27.5,
+    "date": "2015-12-14",
+    "lon": 121.503,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 714,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 22.5,
+    "date": "2015-12-15",
+    "lon": 121.503,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 714,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-16",
+    "lon": 121.503,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 715,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 56,
+    "date": "2015-12-10",
+    "lon": 121.513,
+    "lat": 31.3959,
+    "district": "pudong"
+  },
+  {
+    "gridID": 717,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-09",
+    "lon": 121.333,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 717,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-14",
+    "lon": 121.333,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 717,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-16",
+    "lon": 121.333,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 718,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 42.75,
+    "date": "2015-12-09",
+    "lon": 121.343,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 718,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 537,
+    "date": "2015-12-10",
+    "lon": 121.343,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 718,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 32.25,
+    "date": "2015-12-12",
+    "lon": 121.343,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 718,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 339.1429,
+    "date": "2015-12-14",
+    "lon": 121.343,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 718,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 15,
+    "date": "2015-12-15",
+    "lon": 121.343,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 718,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 155.4,
+    "date": "2015-12-16",
+    "lon": 121.343,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 719,
+    "weiboCount": 8,
+    "userCount": 6,
+    "biFollow": 385.8333,
+    "date": "2015-12-09",
+    "lon": 121.353,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 719,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 506,
+    "date": "2015-12-10",
+    "lon": 121.353,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 719,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 15.5,
+    "date": "2015-12-12",
+    "lon": 121.353,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 719,
+    "weiboCount": 5,
+    "userCount": 2,
+    "biFollow": 131.5,
+    "date": "2015-12-14",
+    "lon": 121.353,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 719,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 37.5,
+    "date": "2015-12-15",
+    "lon": 121.353,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 719,
+    "weiboCount": 9,
+    "userCount": 9,
+    "biFollow": 120.8889,
+    "date": "2015-12-16",
+    "lon": 121.353,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 720,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 38,
+    "date": "2015-12-09",
+    "lon": 121.363,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 720,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 313.5,
+    "date": "2015-12-12",
+    "lon": 121.363,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 720,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 40,
+    "date": "2015-12-15",
+    "lon": 121.363,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 722,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 132,
+    "date": "2015-12-12",
+    "lon": 121.383,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 724,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 3,
+    "date": "2015-12-14",
+    "lon": 121.403,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 725,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 36,
+    "date": "2015-12-10",
+    "lon": 121.413,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 725,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 75,
+    "date": "2015-12-12",
+    "lon": 121.413,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 725,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 36,
+    "date": "2015-12-16",
+    "lon": 121.413,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 726,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 199.8333,
+    "date": "2015-12-09",
+    "lon": 121.423,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 726,
+    "weiboCount": 4,
+    "userCount": 2,
+    "biFollow": 132,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 726,
+    "weiboCount": 7,
+    "userCount": 6,
+    "biFollow": 40.3333,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 726,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 97.5,
+    "date": "2015-12-14",
+    "lon": 121.423,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 726,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 57,
+    "date": "2015-12-15",
+    "lon": 121.423,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 726,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 38.3333,
+    "date": "2015-12-16",
+    "lon": 121.423,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 728,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 1,
+    "date": "2015-12-09",
+    "lon": 121.443,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 728,
+    "weiboCount": 3,
+    "userCount": 1,
+    "biFollow": 162,
+    "date": "2015-12-15",
+    "lon": 121.443,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 728,
+    "weiboCount": 4,
+    "userCount": 2,
+    "biFollow": 2,
+    "date": "2015-12-16",
+    "lon": 121.443,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 729,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 25.6667,
+    "date": "2015-12-09",
+    "lon": 121.453,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 729,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 63.6667,
+    "date": "2015-12-10",
+    "lon": 121.453,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 729,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 716,
+    "date": "2015-12-12",
+    "lon": 121.453,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 729,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 13,
+    "date": "2015-12-14",
+    "lon": 121.453,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 729,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 117,
+    "date": "2015-12-16",
+    "lon": 121.453,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 730,
+    "weiboCount": 17,
+    "userCount": 11,
+    "biFollow": 51.0909,
+    "date": "2015-12-09",
+    "lon": 121.463,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 730,
+    "weiboCount": 10,
+    "userCount": 9,
+    "biFollow": 70.1111,
+    "date": "2015-12-10",
+    "lon": 121.463,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 730,
+    "weiboCount": 9,
+    "userCount": 9,
+    "biFollow": 60,
+    "date": "2015-12-12",
+    "lon": 121.463,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 730,
+    "weiboCount": 22,
+    "userCount": 20,
+    "biFollow": 68.95,
+    "date": "2015-12-14",
+    "lon": 121.463,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 730,
+    "weiboCount": 10,
+    "userCount": 7,
+    "biFollow": 98.1429,
+    "date": "2015-12-15",
+    "lon": 121.463,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 730,
+    "weiboCount": 15,
+    "userCount": 15,
+    "biFollow": 33.6,
+    "date": "2015-12-16",
+    "lon": 121.463,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 731,
+    "weiboCount": 10,
+    "userCount": 9,
+    "biFollow": 46.8889,
+    "date": "2015-12-09",
+    "lon": 121.473,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 731,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 99.6667,
+    "date": "2015-12-10",
+    "lon": 121.473,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 731,
+    "weiboCount": 15,
+    "userCount": 14,
+    "biFollow": 48.5,
+    "date": "2015-12-12",
+    "lon": 121.473,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 731,
+    "weiboCount": 16,
+    "userCount": 14,
+    "biFollow": 75.8571,
+    "date": "2015-12-14",
+    "lon": 121.473,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 731,
+    "weiboCount": 9,
+    "userCount": 6,
+    "biFollow": 195.1667,
+    "date": "2015-12-15",
+    "lon": 121.473,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 731,
+    "weiboCount": 11,
+    "userCount": 10,
+    "biFollow": 85.8,
+    "date": "2015-12-16",
+    "lon": 121.473,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 732,
+    "weiboCount": 14,
+    "userCount": 13,
+    "biFollow": 43.8462,
+    "date": "2015-12-09",
+    "lon": 121.483,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 732,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 76.4,
+    "date": "2015-12-10",
+    "lon": 121.483,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 732,
+    "weiboCount": 13,
+    "userCount": 12,
+    "biFollow": 44.0833,
+    "date": "2015-12-12",
+    "lon": 121.483,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 732,
+    "weiboCount": 19,
+    "userCount": 15,
+    "biFollow": 139.8,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 732,
+    "weiboCount": 11,
+    "userCount": 8,
+    "biFollow": 136.5,
+    "date": "2015-12-15",
+    "lon": 121.483,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 732,
+    "weiboCount": 20,
+    "userCount": 10,
+    "biFollow": 104.1,
+    "date": "2015-12-16",
+    "lon": 121.483,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 733,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 48,
+    "date": "2015-12-09",
+    "lon": 121.493,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 733,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 255.6667,
+    "date": "2015-12-10",
+    "lon": 121.493,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 733,
+    "weiboCount": 14,
+    "userCount": 13,
+    "biFollow": 102.4615,
+    "date": "2015-12-12",
+    "lon": 121.493,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 733,
+    "weiboCount": 10,
+    "userCount": 6,
+    "biFollow": 49.6667,
+    "date": "2015-12-14",
+    "lon": 121.493,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 733,
+    "weiboCount": 4,
+    "userCount": 3,
+    "biFollow": 215,
+    "date": "2015-12-15",
+    "lon": 121.493,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 733,
+    "weiboCount": 35,
+    "userCount": 5,
+    "biFollow": 826.2,
+    "date": "2015-12-16",
+    "lon": 121.493,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 734,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 107,
+    "date": "2015-12-10",
+    "lon": 121.503,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 734,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 120,
+    "date": "2015-12-12",
+    "lon": 121.503,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 734,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-14",
+    "lon": 121.503,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 734,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 65.75,
+    "date": "2015-12-16",
+    "lon": 121.503,
+    "lat": 31.4059,
+    "district": "pudong"
+  },
+  {
+    "gridID": 735,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 1520,
+    "date": "2015-12-14",
+    "lon": 121.333,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 735,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 22,
+    "date": "2015-12-15",
+    "lon": 121.333,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 735,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 242,
+    "date": "2015-12-16",
+    "lon": 121.333,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 736,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 42.6667,
+    "date": "2015-12-09",
+    "lon": 121.343,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 736,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 33,
+    "date": "2015-12-12",
+    "lon": 121.343,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 736,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 48.3333,
+    "date": "2015-12-14",
+    "lon": 121.343,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 736,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 0.5,
+    "date": "2015-12-15",
+    "lon": 121.343,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 736,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 44.6,
+    "date": "2015-12-16",
+    "lon": 121.343,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 737,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 83.2857,
+    "date": "2015-12-09",
+    "lon": 121.353,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 737,
+    "weiboCount": 5,
+    "userCount": 4,
+    "biFollow": 37.5,
+    "date": "2015-12-10",
+    "lon": 121.353,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 737,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 41.25,
+    "date": "2015-12-12",
+    "lon": 121.353,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 737,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 120.1429,
+    "date": "2015-12-14",
+    "lon": 121.353,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 737,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 209.5,
+    "date": "2015-12-15",
+    "lon": 121.353,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 737,
+    "weiboCount": 7,
+    "userCount": 7,
+    "biFollow": 122.7143,
+    "date": "2015-12-16",
+    "lon": 121.353,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 738,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 33,
+    "date": "2015-12-14",
+    "lon": 121.363,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 740,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 192,
+    "date": "2015-12-16",
+    "lon": 121.383,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 741,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 10.5,
+    "date": "2015-12-12",
+    "lon": 121.393,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 741,
+    "weiboCount": 4,
+    "userCount": 2,
+    "biFollow": 2.5,
+    "date": "2015-12-14",
+    "lon": 121.393,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 742,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 15,
+    "date": "2015-12-12",
+    "lon": 121.403,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 742,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-14",
+    "lon": 121.403,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 742,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 18,
+    "date": "2015-12-15",
+    "lon": 121.403,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 743,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 46.5,
+    "date": "2015-12-09",
+    "lon": 121.413,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 743,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 84,
+    "date": "2015-12-10",
+    "lon": 121.413,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 743,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 45.5,
+    "date": "2015-12-12",
+    "lon": 121.413,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 743,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 35.75,
+    "date": "2015-12-14",
+    "lon": 121.413,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 743,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 74,
+    "date": "2015-12-15",
+    "lon": 121.413,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 743,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 183.5,
+    "date": "2015-12-16",
+    "lon": 121.413,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 744,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 880,
+    "date": "2015-12-09",
+    "lon": 121.423,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 744,
+    "weiboCount": 6,
+    "userCount": 5,
+    "biFollow": 113.6,
+    "date": "2015-12-10",
+    "lon": 121.423,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 744,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 170,
+    "date": "2015-12-12",
+    "lon": 121.423,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 744,
+    "weiboCount": 5,
+    "userCount": 5,
+    "biFollow": 313.8,
+    "date": "2015-12-14",
+    "lon": 121.423,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 744,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 1733,
+    "date": "2015-12-15",
+    "lon": 121.423,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 744,
+    "weiboCount": 17,
+    "userCount": 5,
+    "biFollow": 127,
+    "date": "2015-12-16",
+    "lon": 121.423,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 745,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 5,
+    "date": "2015-12-10",
+    "lon": 121.433,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 745,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 87.3333,
+    "date": "2015-12-12",
+    "lon": 121.433,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 745,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 104,
+    "date": "2015-12-14",
+    "lon": 121.433,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 745,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 79,
+    "date": "2015-12-15",
+    "lon": 121.433,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 745,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 212,
+    "date": "2015-12-16",
+    "lon": 121.433,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 746,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 2,
+    "date": "2015-12-10",
+    "lon": 121.443,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 746,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 787,
+    "date": "2015-12-14",
+    "lon": 121.443,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 747,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 48,
+    "date": "2015-12-09",
+    "lon": 121.453,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 748,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 18,
+    "date": "2015-12-10",
+    "lon": 121.463,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 748,
+    "weiboCount": 2,
+    "userCount": 2,
+    "biFollow": 4.5,
+    "date": "2015-12-14",
+    "lon": 121.463,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 748,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 25,
+    "date": "2015-12-15",
+    "lon": 121.463,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 749,
+    "weiboCount": 3,
+    "userCount": 2,
+    "biFollow": 9.5,
+    "date": "2015-12-09",
+    "lon": 121.473,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 749,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 6,
+    "date": "2015-12-16",
+    "lon": 121.473,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 750,
+    "weiboCount": 6,
+    "userCount": 6,
+    "biFollow": 211.1667,
+    "date": "2015-12-09",
+    "lon": 121.483,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 750,
+    "weiboCount": 2,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-10",
+    "lon": 121.483,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 750,
+    "weiboCount": 6,
+    "userCount": 4,
+    "biFollow": 13.75,
+    "date": "2015-12-12",
+    "lon": 121.483,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 750,
+    "weiboCount": 4,
+    "userCount": 4,
+    "biFollow": 44.75,
+    "date": "2015-12-14",
+    "lon": 121.483,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 750,
+    "weiboCount": 3,
+    "userCount": 3,
+    "biFollow": 35,
+    "date": "2015-12-15",
+    "lon": 121.483,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 750,
+    "weiboCount": 4,
+    "userCount": 2,
+    "biFollow": 608.5,
+    "date": "2015-12-16",
+    "lon": 121.483,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 751,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 0,
+    "date": "2015-12-14",
+    "lon": 121.493,
+    "lat": 31.4159,
+    "district": "pudong"
+  },
+  {
+    "gridID": 751,
+    "weiboCount": 1,
+    "userCount": 1,
+    "biFollow": 4,
+    "date": "2015-12-15",
+    "lon": 121.493,
+    "lat": 31.4159,
+    "district": "pudong"
+  }
+]
