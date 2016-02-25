@@ -1,6 +1,7 @@
 #!/usr/bin/python
 import json
 import random
+import math
 #Function:Analyze json script
 #Json is a script can descript data structure as xml, 
 #for detail, please refer to "http://json.org/json-zh.html".
@@ -47,6 +48,34 @@ def value2color(value):
         return [232+d1,57+d2,41+d3]
     else:
         return [232,57,41]
+
+def value2color2(value):
+    d1 = (255-232)/5
+    d2 = (255-57)/5
+    d3 = (255-41)/5
+    d4 = (255-22)/4
+    d5 = (255-94)/4
+    d6 = (255-131)/4
+    if(value<=1):
+        return [22,94,131,200]
+    elif(value<=2):
+        return [22+d4,94+d5,131+d6,150]
+    elif(value<=3):
+        return [22+d4*2,94+d5*2,131+d6*2,100]
+    elif(value<=4):
+        return [22+d4*3,94+d5*3,131+d6*3,50]
+    elif(value<=5):
+        return [255,255,255,10]
+    elif(value<=6):
+        return [232+4*d1,57+4*d2,41+4*d3,50]
+    elif(value<=7):
+        return [232+3*d1,57+3*d2,41+3*d3,100]
+    elif(value<=8):
+        return [232+2*d1,57+2*d2,41+2*d3,150]
+    elif(value<=9):
+        return [232+d1,57+d2,41+d3,200]
+    else:
+        return [232,57,41,250]
 
     
 #json string:
@@ -97,14 +126,18 @@ for i in range(0, rownum):
         outlineColor = {}
         rgba = []
         rgba.append(lists[i]["date"]+"T00:00:00Z")
-        print lists[i]["date"]
-        rgb = value2color(random.uniform(0,10))
+        ##print lists[i]["date"]
+        value = math.log(lists[i]["weiboCount"])/(math.log(250.0))*10.0
+        print value
+##        rgb = value2color(value)
+        rgb = value2color2(value)
         rgba.append(rgb[0])
         rgba.append(rgb[1])
         rgba.append(rgb[2])
-        rgba.append(255)
-        ##outlineColor["rgba"] = rgba
-        ##rectangle["outlineColor"] = outlineColor
+        rgba.append(rgb[3])
+##        rgba.append(255)
+##        outlineColor["rgba"] = rgba
+##        rectangle["outlineColor"] = outlineColor
         color = {}
         solidColor = {}
         material ={}
@@ -113,14 +146,14 @@ for i in range(0, rownum):
         material["solidColor"] = solidColor
         rectangle["material"] = material
 		
-        ##extrudedHeight = {}
+##        extrudedHeight = {}
         height = {}
         number = []
         number.append(lists[i]["date"]+"T00:00:00Z")
         number.append(lists[i]["weiboCount"]*100)
-        ##extrudedHeight["number"] = number
+##        extrudedHeight["number"] = number
         height["number"] = number
-        ##rectangle["extrudedHeight"] = extrudedHeight
+##        rectangle["extrudedHeight"] = extrudedHeight
         rectangle["height"] = height
         entity["rectangle"] = rectangle
         num=num+1
@@ -132,20 +165,24 @@ for i in range(0, rownum):
             else:
                 ##中间
                 rgba.append(lists[i]["date"]+"T00:00:00Z")
-                print lists[i]["date"]
-                rgb = value2color(random.uniform(0,10))
+                ##print lists[i]["date"]
+                value = math.log(lists[i]["weiboCount"])/(math.log(250.0))*10.0
+                print value
+##                rgb = value2color(value)
+                rgb = value2color2(value)
+                print lists[i]["weiboCount"]/250*10
                 rgba.append(rgb[0])
                 rgba.append(rgb[1])
                 rgba.append(rgb[2])
-                rgba.append(255)
-                ##outlineColor["rgba"] = rgba
-                ##rectangle["outlineColor"] = outlineColor
+                rgba.append(rgb[3])
+##                rgba.append(255)
+##                rectangle["outlineColor"]["rgba"] = rgba
                 rectangle["material"]["solidColor"]["color"]["rgba"] = rgba
                 number.append(lists[i]["date"]+"T00:00:00Z")
                 number.append(lists[i]["weiboCount"]*100)
-                ##extrudedHeight["number"] = number
+##                extrudedHeight["number"] = number
                 height["number"] = number
-                ##rectangle["extrudedHeight"] = extrudedHeight
+##                rectangle["extrudedHeight"] = extrudedHeight
                 rectangle["height"] = height
                 entity["rectangle"] = rectangle
         else:
@@ -154,7 +191,7 @@ for i in range(0, rownum):
 s3 = json.dumps(czml)
 ##print s3
 ##创建新文件
-fileout = 'result1rectpiece.czml'
+fileout = 'result1piece2.czml'
 ##打开数据文件
 fout = open(fileout,'w')
 fout.write(s3)

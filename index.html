@@ -87,17 +87,17 @@
 			fill: Cesium.Color.fromRgba(0,0,0,0)
 		});
 		showGrid('grid');
-		var pillar = viewer.dataSources.add(Cesium.CzmlDataSource.load('result1.czml'));
-		var piece = viewer.dataSources.add(Cesium.CzmlDataSource.load('result1rectpiece.czml'));
+		var pillar = viewer.dataSources.add(Cesium.CzmlDataSource.load('result1pillar2.czml'));
+		var piece = viewer.dataSources.add(Cesium.CzmlDataSource.load('result1piece2.czml'));
 		viewer.zoomTo(pillar);
 		function showGrid(label){
 			if(viewer.dataSources.contains(grid))
 				viewer.dataSources.remove(grid);
-			console.log('start');
+			//console.log('start');
 			var entities = grid.entities.values;
-			console.log(grid);
+			//console.log(grid);
 			for (var i = 0; i < entities.length; i++) {
-				console.log('haha');
+				//console.log('haha');
 				//For each entity, create a random color based on the state name.
 				//Some states have multiple entities, so we store the color in a
 				//hash so that we use the same color for the entire state.
@@ -129,14 +129,31 @@
 		}
 		function changeView(label){
 			if(label === 'top'){
-				viewer.camera.flyTo({
-					destination : Cesium.Cartesian3.fromDegrees(121.473, 31.2359, 25000.0),
-					orientation : {
-						heading : Cesium.Math.toRadians(0.0),
-						pitch : Cesium.Math.toRadians(-90.0),
-						roll : 0.0
-					}
-				});
+				if(viewer.camera._mode == Cesium.SceneMode.SCENE3D||viewer.camera._mode==Cesium.SceneMode.COLUMBUS_VIEW){
+					viewer.camera.flyTo({
+						destination : Cesium.Cartesian3.fromDegrees(121.473, 31.2359, 50000.0),
+						orientation : {
+							heading : Cesium.Math.toRadians(0.0),
+							pitch : Cesium.Math.toRadians(-90.0),
+							roll : 0.0
+						}
+					});
+				}
+				else{
+					viewer.zoomTo(pillar)
+				}
+			}
+			else if(label === 'side'){
+				if(viewer.camera._mode == Cesium.SceneMode.SCENE3D||viewer.camera._mode==Cesium.SceneMode.COLUMBUS_VIEW){
+					viewer.camera.flyTo({
+						destination : new Cesium.Cartesian3(-2850570.187868778, 4689508.880663373, 3276395.3614221583),
+						orientation : {
+							heading : 0.5754283424080437,
+							pitch : -0.6430569331023999,
+							roll : 6.283180789336859
+						}
+					});
+				}
 			}
 		}
 		$("#radio").buttonset();
@@ -180,6 +197,16 @@
 					return color.withAlpha(0.1*i);
 				}
 			} 
+		}
+		function getcamera()
+		{
+			var camera = 
+			{destination:viewer.camera.position,
+			heading : viewer.camera.heading,
+			pitch : viewer.camera.pitch,
+			roll : viewer.camera.roll};
+			
+			return camera;
 		}
 	</script>
 	<!-- <script type="text/javascript" src="d3example.js" charset="utf-8"></script> -->
