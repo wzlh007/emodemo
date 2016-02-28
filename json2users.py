@@ -50,32 +50,27 @@ def value2color(value):
         return [232,57,41]
 
 def value2color2(value):
-    d1 = (255-232)/5
-    d2 = (255-57)/5
-    d3 = (255-41)/5
-    d4 = (255-22)/4
-    d5 = (255-94)/4
-    d6 = (255-131)/4
+    d = 255/9
     if(value<=1):
-        return [22,94,131,200]
+        return [0,0,0,255]
     elif(value<=2):
-        return [22+d4,94+d5,131+d6,150]
+        return [d,d,d,255]
     elif(value<=3):
-        return [22+d4*2,94+d5*2,131+d6*2,100]
-    elif(value<=4):
-        return [22+d4*3,94+d5*3,131+d6*3,50]
+        return [2*d,2*d,2*d,255]
     elif(value<=5):
-        return [255,255,255,10]
-    elif(value<=6):
-        return [232+4*d1,57+4*d2,41+4*d3,50]
+        return [3*d,3*d,3*d,255]
     elif(value<=7):
-        return [232+3*d1,57+3*d2,41+3*d3,100]
-    elif(value<=8):
-        return [232+2*d1,57+2*d2,41+2*d3,150]
+        return [4*d,4*d,4*d,255]
     elif(value<=9):
-        return [232+d1,57+d2,41+d3,200]
+        return [5*d,5*d,5*d,255]
+    elif(value<=12):
+        return [6*d,6*d,6*d,255]
+    elif(value<=18):
+        return [7*d,7*d,7*d,255]
+    elif(value<=29):
+        return [8*d,8*d,8*d,255]
     else:
-        return [232,57,41,250]
+        return [255,255,255,255]
 
     
 #json string:
@@ -91,7 +86,7 @@ lists = json.loads(content)
 print type(lists)
 
 ##创建cmzl文本
-czml = [{"id" : "document","name" : "CZML Geometries: Polygon","version" : "1.0"}]
+czml = [{"id" : "document","name" : "userCount pieces","version" : "1.0"}]
 ##print type(czml)
 ##entity = {}
 ##entity["id"] = "123123"
@@ -99,9 +94,10 @@ czml = [{"id" : "document","name" : "CZML Geometries: Polygon","version" : "1.0"
 ##czml.append(entity)
 ##print czml[1]["id"]
 starttime = '2015-12-09T00:00:00Z'
-endtime = '2015-12-17T00:00:00Z'
+endtime = '2015-12-16T00:00:00Z'
 num = -1
 rownum = len(lists)
+##rownum = 100
 for i in range(0, rownum):
     ##开始
     if(lists[i]["gridID"]!=num):
@@ -109,7 +105,7 @@ for i in range(0, rownum):
         entity["id"] = str(lists[i]["gridID"])
         entity["name"] = 'grid'+str(lists[i]["gridID"])
         print entity["name"]
-        entity["availability"] = starttime+'/'+endtime
+        
         ##创建rectangle图形
         rectangle = {}
         ##rectangle 的位置坐标
@@ -122,20 +118,17 @@ for i in range(0, rownum):
         ##rectangle的样式
         rectangle["outline"] = 0
         rectangle["fill"] = 1
-        rectangle["outlineWidth"] = 4
-        outlineColor = {}
+##        rectangle["outlineWidth"] = 4
+##        outlineColor = {}
         rgba = []
         rgba.append(lists[i]["date"]+"T00:00:00Z")
-        ##print lists[i]["date"]
-        value = math.log(lists[i]["weiboCount"])/(math.log(250.0))*10.0
-        print value
-##        rgb = value2color(value)
-        rgb = value2color2(value)
+        starttime = lists[i]["date"]+"T00:00:00Z"
+        rgb = value2color2(lists[i]["userCount"])
         rgba.append(rgb[0])
         rgba.append(rgb[1])
         rgba.append(rgb[2])
         rgba.append(rgb[3])
-##        rgba.append(255)
+
 ##        outlineColor["rgba"] = rgba
 ##        rectangle["outlineColor"] = outlineColor
         color = {}
@@ -147,51 +140,52 @@ for i in range(0, rownum):
         rectangle["material"] = material
 		
 ##        extrudedHeight = {}
-        height = {}
-        number = []
-        number.append(lists[i]["date"]+"T00:00:00Z")
-        number.append(lists[i]["weiboCount"]*100)
+##        height = {}
+##        number = []
+##        number.append(lists[i]["date"]+"T00:00:00Z")
+##        number.append(lists[i]["weiboCount"]*100+1000)
 ##        extrudedHeight["number"] = number
-        height["number"] = number
+##        height["number"] = number
 ##        rectangle["extrudedHeight"] = extrudedHeight
-        rectangle["height"] = height
+##        rectangle["height"] = 0
         entity["rectangle"] = rectangle
         num=num+1
     ##中间添加
     else:
+        rgba.append(lists[i]["date"]+"T00:00:00Z")
+        rgb = value2color2(lists[i]["userCount"])
+        rgba.append(rgb[0])
+        rgba.append(rgb[1])
+        rgba.append(rgb[2])
+        rgba.append(rgb[3])
+
+##                rectangle["outlineColor"]["rgba"] = rgba
+        rectangle["material"]["solidColor"]["color"]["rgba"] = rgba
+##        number.append(lists[i]["date"]+"T00:00:00Z")
+##        number.append(lists[i]["weiboCount"]*100+1000)
+##                extrudedHeight["number"] = number
+##        height["number"] = number
+##                rectangle["extrudedHeight"] = extrudedHeight
+##        rectangle["height"] = 0
+        entity["rectangle"] = rectangle
         if(i+1<rownum):
             if(lists[i]["gridID"]!=lists[i+1]["gridID"]):
+                ##最后一天
+                endtime = lists[i]["date"]+"T00:00:00Z"
+                entity["availability"] = starttime+'/'+endtime
                 czml.append(entity)
             else:
+                print '中间'
                 ##中间
-                rgba.append(lists[i]["date"]+"T00:00:00Z")
-                ##print lists[i]["date"]
-                value = math.log(lists[i]["weiboCount"])/(math.log(250.0))*10.0
-                print value
-##                rgb = value2color(value)
-                rgb = value2color2(value)
-                print lists[i]["weiboCount"]/250*10
-                rgba.append(rgb[0])
-                rgba.append(rgb[1])
-                rgba.append(rgb[2])
-                rgba.append(rgb[3])
-##                rgba.append(255)
-##                rectangle["outlineColor"]["rgba"] = rgba
-                rectangle["material"]["solidColor"]["color"]["rgba"] = rgba
-                number.append(lists[i]["date"]+"T00:00:00Z")
-                number.append(lists[i]["weiboCount"]*100)
-##                extrudedHeight["number"] = number
-                height["number"] = number
-##                rectangle["extrudedHeight"] = extrudedHeight
-                rectangle["height"] = height
-                entity["rectangle"] = rectangle
         else:
+            endtime = lists[i]["date"]+"T00:00:00Z"
+            entity["availability"] = starttime+'/'+endtime
             czml.append(entity)
 ##print czml
 s3 = json.dumps(czml)
 ##print s3
 ##创建新文件
-fileout = 'result1piece2.czml'
+fileout = 'userCount.czml'
 ##打开数据文件
 fout = open(fileout,'w')
 fout.write(s3)
