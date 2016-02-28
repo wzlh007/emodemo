@@ -95,8 +95,11 @@
 		var piece = new Cesium.CzmlDataSource();
 		piece.load('emopiece.czml')
 		viewer.dataSources.add(piece);
+		
 		var bifollow = new Cesium.CzmlDataSource();
+		bifollow.load('bifopiecefull.czml');
 		var userCount = new Cesium.CzmlDataSource();
+		userCount.load('userCountfull.czml');
 		
 		viewer.camera.flyTo({
 			destination : new Cesium.Cartesian3(-2850570.187868778, 4689508.880663373, 3276395.3614221583),
@@ -143,11 +146,9 @@
 				viewer.dataSources.remove(userCount);
 			//console.log('start');
 			if(label === 'bifollow'){
-				bifollow.load('bifopiece.czml');
 				viewer.dataSources.add(bifollow);
 			}
 			else if(label === 'userCount'){
-				userCount.load('userCount.czml');
 				viewer.dataSources.add(userCount);
 			}
 			else{
@@ -159,22 +160,22 @@
 					//Some states have multiple entities, so we store the color in a
 					//hash so that we use the same color for the entire state.
 					var entity = entities[i];
-					//var name = entity.name;
+					
+					entity.name = 'grid'+entity.properties.gridID;
 					var color;
-					if(label === 'grid'){
+					if(label == 'grid'){
 						color = Cesium.Color.fromRgba(0,0,0,0);
 						entity.polygon.outlineWidth = 1;
 						entity.polygon.outlineColor = Cesium.Color.GREY;				
 						entity.polygon.outline = true;
 						entity.polygon.material = color;
-						
 					}
-					else if(label === 'restaurant'){
+					else if(label == 'restaurant'){
 						color = fillGrid(entity.properties.restaurant);
 						entity.polygon.outline = false;
 						entity.polygon.material = color;
 					}
-					else if(label === 'scene'){
+					else if(label == 'scene'){
 						color = fillGrid2(entity.properties.scene);
 						entity.polygon.outline = false;
 						entity.polygon.material = color;

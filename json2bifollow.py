@@ -21,56 +21,28 @@ import math
 #print s
 #f.close
 
-def value2color(value):
-    d1 = (255-232)/5
-    d2 = (255-57)/5
-    d3 = (255-41)/5
-    d4 = (255-22)/4
-    d5 = (255-94)/4
-    d6 = (255-131)/4
-    if(value<=1):
-        return [22,94,131]
-    elif(value<=2):
-        return [22+d4,94+d5,131+d6]
-    elif(value<=3):
-        return [22+d4*2,94+d5*2,131+d6*2]
-    elif(value<=4):
-        return [22+d4*3,94+d5*3,131+d6*3]
-    elif(value<=5):
-        return [255,255,255]
-    elif(value<=6):
-        return [232+4*d1,57+4*d2,41+4*d3]
-    elif(value<=7):
-        return [232+3*d1,57+3*d2,41+3*d3]
-    elif(value<=8):
-        return [232+2*d1,57+2*d2,41+2*d3]
-    elif(value<=9):
-        return [232+d1,57+d2,41+d3]
-    else:
-        return [232,57,41]
-
 def value2color2(value):
     d = 255/9
     if(value<=22.3333):
-        return [0,0,0,255]
+        return [0,0,0,150]
     elif(value<=44.5714):
-        return [d,d,d,255]
+        return [d,d,d,150]
     elif(value<=63.1429):
-        return [2*d,2*d,2*d,255]
+        return [2*d,2*d,2*d,150]
     elif(value<=78.8095):
-        return [3*d,3*d,3*d,255]
+        return [3*d,3*d,3*d,150]
     elif(value<=94.7857):
-        return [4*d,4*d,4*d,255]
+        return [4*d,4*d,4*d,150]
     elif(value<=113.6582):
-        return [5*d,5*d,5*d,255]
+        return [5*d,5*d,5*d,150]
     elif(value<=135.5):
-        return [6*d,6*d,6*d,255]
+        return [6*d,6*d,6*d,150]
     elif(value<=168.4737):
-        return [7*d,7*d,7*d,255]
+        return [7*d,7*d,7*d,150]
     elif(value<=244):
-        return [8*d,8*d,8*d,255]
+        return [8*d,8*d,8*d,150]
     else:
-        return [255,255,255,255]
+        return [255,255,255,150]
 
     
 #json string:
