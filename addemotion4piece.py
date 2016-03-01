@@ -31,7 +31,7 @@ def value2color2(value):
         return [232,57,41,255]
 
 ##打开数据文件
-filep = 'piece3.czml'
+filep = 'piecefull.czml'
 filee = 'emotion4short.json'
 fp = open(filep,'r')
 fe = open(filee,'r')
@@ -114,7 +114,7 @@ for emo in emolists:
 ##将list转换成str    
 s3 = json.dumps(lists)
 ##创建新文件
-fileout = 'emopiece.czml'
+fileout = 'emopiecefull.czml'
 fout = open(fileout,'w')
 ##写入数据文件
 fout.write(s3)

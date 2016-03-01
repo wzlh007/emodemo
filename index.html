@@ -110,6 +110,19 @@
 			}
 		});
 		
+		//图例
+		var cesiumContainer = document.getElementById("cesiumContainer");
+		var legendContainer = document.createElement('div');
+		//legendContainer.className = 'legend';
+		legendContainer.setAttribute('id','legendContainer');
+		legendContainer.setAttribute('style','position:absolute;bottom:100px;right:10px;width:256px;height:192px;');
+		var img = document.createElement('img');
+		img.setAttribute('id','legend');
+		img.setAttribute('src','img/emo.png');
+		legendContainer.appendChild(img);
+		cesiumContainer.appendChild(legendContainer);
+		console.log(legendContainer);
+		
 		viewer.scene.morphComplete.addEventListener(function(){
 			viewer.camera.setView({
 				destination : new Cesium.Cartesian3(-2850570.187868778, 4689508.880663373, 3276395.3614221583),
@@ -147,6 +160,9 @@
 			//console.log('start');
 			if(label === 'bifollow'){
 				viewer.dataSources.add(bifollow);
+				var legend = document.getElementById("legend");
+				legend.src = 'img/bi_user.png'
+				console.log(legend.src);
 			}
 			else if(label === 'userCount'){
 				viewer.dataSources.add(userCount);

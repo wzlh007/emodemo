@@ -79,7 +79,7 @@ def value2color2(value):
 
     
 #json string:
-file = 'input1.json'
+file = 'input.json'
 ##打开数据文件
 fp = open(file,'r')
 print type(fp)
@@ -193,7 +193,7 @@ for i in range(0, rownum):
 s3 = json.dumps(czml)
 ##print s3
 ##创建新文件
-fileout = 'piece3.czml'
+fileout = 'piecefull.czml'
 ##打开数据文件
 fout = open(fileout,'w')
 fout.write(s3)
