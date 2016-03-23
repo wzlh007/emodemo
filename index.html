@@ -1,311 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>VGI Data Visualization</title>
-	<script type="text/javascript" src="3rdParty/jquery-ui-1.10.3/jquery-1.9.1.js"></script>
-	<script type="text/javascript" src="3rdParty/jquery-ui-1.10.3/ui/jquery-ui.js"></script>
-    <script type="text/javascript" src="3rdParty/cesium/Build/Cesium/Cesium.js"></script>
-    <script type="text/javascript" src="3rdParty/cesium/Build/Cesium/cartoDB.js"></script>
-    <!-- <script type="text/javascript" src="3rdParty/d3/d3.v3.js"></script> -->
-<!--  	<script type="text/javascript">
-		var sharedObject = {
-			dispatch : d3.dispatch("nationMouseover"),
-			yearData : [],
-			flyTo : null
-		};
-    </script>  -->
-    <style>
-      @import url(3rdParty/jquery-ui-1.10.3/themes/vader/jquery-ui.css);
-      @import url(d3chart.css);
-      @import url(3rdParty/cesium/Build/Cesium/Widgets/widgets.css);
-      body {
-        padding: 0;
-        margin: 0;
-        overflow: hidden;
-      }
-	  .fullSize {
-		display: block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		border: none;
-		width: 100%;
-		height: 100%;
-	}
-	#format { margin-top: 2em; }
-    </style>
-  </head>
+<!doctype html>
+<html>
+<head>
+<title>EmoGrids</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<style>
+body {
+    font-family: sans-serif;
+}
+
+dt {
+    margin-top: 7px;
+}
+
+dd {
+    margin-top: 7px;
+}
+
+li {
+    margin-top: 3px;
+}
+
+ul {
+    list-style-type: none;
+}
+</style>
+</head>
 <body>
-	<div id="cesiumContainer" class="fullSize"></div>
- 	<div id="radio" style="position:absolute; top:0px; right:50%; height: 30px">
-		<input type="radio" id="top" name="topside"><label for="top">顶视图</label>
-		<input type="radio" id="side" name="topside"><label for="side">侧视图</label>
-	</div> 
-	<div id="radio2" style="position:absolute; bottom:8%; right:20%;  border-radius: 7px;">
-		<input type="radio" id="grid" name="gridpoi" checked="checked" "><label  for="grid">网格</label>
-		<input type="radio" id="restaurant" name="gridpoi" "><label for="restaurant">餐饮POI数量</label>
-		<input type="radio" id="scene" name="gridpoi" "><label  for="scene">景点POI数量</label>
-		<input type="radio" id="bifollow" name="gridpoi" "><label  for="bifollow">好友数</label>
-		<input type="radio" id="userCount" name="gridpoi" "><label  for="userCount">用户人数</label>
-	</div>
-	<div style="position:absolute; bottom:8%; right:10px;height:30px"><input type="checkbox" id="emotion"  checked="checked"><label for="emotion">情感</label></div>
-	<div id="info" title="weibo"></div>
-	<script type="text/javascript">
-		var basemapProvider = new Cesium.CartoDBImageryProvider({
-			url: 'http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
-			credit: 'Basemap courtesy of CartoDB'
-		});
-		var tiandituMarker = new Cesium.WebMapTileServiceImageryProvider({
-			url :'http://t0.tianditu.com/cia_w/wmts',
-            layer : 'cva',
-            style : 'default',
-            format : 'tiles',
-            tileMatrixSetID : 'w'//,
-			//credit:  new Cesium.Credit('Visual Earth Studio', 'images/velogo.png', 'http://www.visualearth.org') 
-		} ) ;
-		
-		var viewer = new Cesium.Viewer('cesiumContainer', 
-		{
-			fullscreenElement : document.body,
-			//infoBox : false,
-			imageryProvider: basemapProvider,//basemapProvider,
-			baseLayerPicker: false,
-			fullscreenButton: false,
-			homeButton: false,
-			//timeline: false,
-			//navigationHelpButton: false,
-			//animation: false,
-			//scene3DOnly: true,
-			geocoder: false
-		});
+  <div>
+    <img src="logo.png" style='width: 50%; max-width: 300px' />
+    <ul>
+      <li><b>Visualization Pages</b>
+        <dl>
+          <dt>
+            <a href="shanghai.html">Shanghai</a>
+          </dt>
+          <dd>The grids cover the whole range of Shanghai.</dd>
+          <dt>
+            <a href="centerCity.html">Central City Area</a>
+          </dt>
+          <dd>
+            The grids cover the central city area.
+          </dd>
+          
+        </dl>
+      <li><b>Download Data</b>
+        <dl>
+          <dt>
+            <a href="data/rawDataShanghai.txt">Raw Data of Shanghai</a>
+          </dt>
+		  <dd>The raw data is acquired directly from Sina Weibo API which covers Shanghai.</dd>
+          <dt>
+            <a href="data/rawDataCentre.csv">Raw Data of Central City</a>
+          </dt>
+		  <dd>The raw data is acquired directly from Sina Weibo API which covers the central city area of Shanghai.</dd>
+          <dt>
+            <a href="data/zoneDataShanghai.json">Statistical Data of Shanghai</a>
+          </dt>
+		  <dd>The data in each grid after zonal statistic which covers Shanghai.</dd>
+          <dt>
+            <a href="data/zoneDataCentre.json">Statistical Data of Central City</a>
+          </dt>
+		  <dd>The data in each grid after zonal statistic which covers the central city area of Shanghai.</dd>
 
-		viewer.navigationHelpButton.viewModel.tooltip = '说明';
-
-		var grid = new Cesium.GeoJsonDataSource();
-		grid.load('gridwithvalue.geojson',{
-			strokeWidth:1,
-			stroke:Cesium.Color.GREY,
-			fill: Cesium.Color.fromRgba(0,0,0,0)
-		});
-		showGrid('grid');
-
-		
-		var pillar = new Cesium.CzmlDataSource();
-		pillar.load('emopillar.czml');
-		viewer.dataSources.add(pillar);
-		var piece = new Cesium.CzmlDataSource();
-		piece.load('emopiece.czml')
-		viewer.dataSources.add(piece);
-		
-		var bifollow = new Cesium.CzmlDataSource();
-		bifollow.load('bifopiecefull.czml');
-		var userCount = new Cesium.CzmlDataSource();
-		userCount.load('userCountfull.czml');
-		
-		viewer.camera.flyTo({
-			destination : new Cesium.Cartesian3(-2850570.187868778, 4689508.880663373, 3276395.3614221583),
-			orientation : {
-				heading : 0.5754283424080437,
-				pitch : -0.6430569331023999,
-				roll : 6.283180789336859
-			}
-		});
-		
-		//图例
-		var cesiumContainer = document.getElementById("cesiumContainer");
-		var legendContainer = document.createElement('div');
-		//legendContainer.className = 'legend';
-		legendContainer.setAttribute('id','legendContainer');
-		legendContainer.setAttribute('style','position:absolute;bottom:100px;right:10px;width:256px;height:192px;');
-		var img = document.createElement('img');
-		img.setAttribute('id','legend');
-		img.setAttribute('src','img/emo.png');
-		legendContainer.appendChild(img);
-		cesiumContainer.appendChild(legendContainer);
-		console.log(legendContainer);
-		
-		viewer.scene.morphComplete.addEventListener(function(){
-			viewer.camera.setView({
-				destination : new Cesium.Cartesian3(-2850570.187868778, 4689508.880663373, 3276395.3614221583),
-				orientation : {
-					heading : 0.5754283424080437,
-					pitch : -0.6430569331023999,
-					roll : 6.283180789336859
-				}
-			});
-			viewer.scene.completeMorph();
-			if(viewer.camera._mode == Cesium.SceneMode.SCENE3D||viewer.camera._mode==Cesium.SceneMode.COLUMBUS_VIEW){
-				console.log('fly ok');
-			}
-			else if(viewer.dataSources.contains(grid)){
-				viewer.zoomTo(grid);
-				console.log('zoomto grid ok');
-			} 
-			else if(viewer.dataSources.contains(bifollow)){
-				viewer.zoomTo(bifollow)
-				console.log('zoomto bifollow ok');
-			} 
-			else if(viewer.dataSources.contains(userCount)){
-				viewer.zoomTo(userCount);
-				console.log('zoomto userCount ok');
-			}
-		});
-		
-		function showGrid(label){
-			if(viewer.dataSources.contains(grid))
-				viewer.dataSources.remove(grid);
-			if(viewer.dataSources.contains(bifollow))
-				viewer.dataSources.remove(bifollow);			
-			if(viewer.dataSources.contains(userCount))
-				viewer.dataSources.remove(userCount);
-			//console.log('start');
-			if(label === 'bifollow'){
-				viewer.dataSources.add(bifollow);
-				var legend = document.getElementById("legend");
-				legend.src = 'img/bi_user.png'
-				console.log(legend.src);
-			}
-			else if(label === 'userCount'){
-				viewer.dataSources.add(userCount);
-			}
-			else{
-				var entities = grid.entities.values;
-				//console.log(grid);
-				for (var i = 0; i < entities.length; i++) {
-					//console.log('haha');
-					//For each entity, create a random color based on the state name.
-					//Some states have multiple entities, so we store the color in a
-					//hash so that we use the same color for the entire state.
-					var entity = entities[i];
-					
-					entity.name = 'grid'+entity.properties.gridID;
-					var color;
-					if(label == 'grid'){
-						color = Cesium.Color.fromRgba(0,0,0,0);
-						entity.polygon.outlineWidth = 1;
-						entity.polygon.outlineColor = Cesium.Color.GREY;				
-						entity.polygon.outline = true;
-						entity.polygon.material = color;
-					}
-					else if(label == 'restaurant'){
-						color = fillGrid(entity.properties.restaurant);
-						entity.polygon.outline = false;
-						entity.polygon.material = color;
-					}
-					else if(label == 'scene'){
-						color = fillGrid2(entity.properties.scene);
-						entity.polygon.outline = false;
-						entity.polygon.material = color;
-					}
-				}
-				viewer.dataSources.add(grid);
-			}
-			//viewer.dataSources.add(demo);
-		}
-		function changeView(label){
-			if(label === 'top'){
-				if(viewer.camera._mode == Cesium.SceneMode.SCENE3D||viewer.camera._mode==Cesium.SceneMode.COLUMBUS_VIEW){
-					viewer.camera.flyTo({
-						destination : Cesium.Cartesian3.fromDegrees(121.473, 31.2359, 50000.0),
-						orientation : {
-							heading : Cesium.Math.toRadians(0.0),
-							pitch : Cesium.Math.toRadians(-90.0),
-							roll : 0.0
-						}
-					});
-				}
-				else{
-					viewer.zoomTo(pillar)
-					//viewer.zoomTo(piece)
-				}
-			}
-			else if(label === 'side'){
-				if(viewer.camera._mode == Cesium.SceneMode.SCENE3D||viewer.camera._mode==Cesium.SceneMode.COLUMBUS_VIEW){
-					viewer.camera.flyTo({
-						destination : new Cesium.Cartesian3(-2850570.187868778, 4689508.880663373, 3276395.3614221583),
-						orientation : {
-							heading : 0.5754283424080437,
-							pitch : -0.6430569331023999,
-							roll : 6.283180789336859
-						}
-					});
-				}
-			}
-		}
-		$("#emotion").button();
-		$("#emotion").css("font-size", "12px");
-		$("#emotion").css("font-size", "12px");
-		$("#radio").buttonset();
-		$("#radio").css("font-size", "12px");
-		$("#radio").css("font-size", "12px");
-		$("#radio2").buttonset();
-		$("#radio2").css("font-size", "12px");
-		$("#radio2").css("font-size", "12px");
-		$("body").css("background-color", "black");
-		
-		$("input[name='gridpoi']").change(function(d){
-			showGrid(d.target.id);
-		});
-		$("input[name='topside']").change(function(d){
-			changeView(d.target.id);
-		});
-		//console.log($("input[name='gridpoi']").filter(":checked").attr("id"));
-		//console.log($("#emotion").checked);
-		$("#emotion").change(function(d){
-			if($("#emotion")[0].checked){
-				if(!viewer.dataSources.contains(pillar))
-					viewer.dataSources.add(pillar);
-				if(!viewer.dataSources.contains(piece))
-					viewer.dataSources.add(piece);
-			}
-			else{
-				if(viewer.dataSources.contains(pillar))
-					viewer.dataSources.remove(pillar);
-				if(viewer.dataSources.contains(piece))
-					viewer.dataSources.remove(piece);
-			}
-		});
-		
-		
-		var value2color = [[12,50],[34,47],[62,44],[97,41],[131,38],[178,35],[275,32],[448,29],[662,26],[1008,23]];
-		var value2color2 = [1,3,6,9,12,15,20,28,38,83];	
-		var value2color3 = ['#E6B422','#E2B84B','#E5BF5E','#E8C773','#EBCF88','#EFD69B','#F2DFB0','#F6E8C5','#F9F0D9','#FCF7EC'];
-		var value2color4 = ['#C3D825','#C3D452','#CAD966','#D1DD7B','#D8E290','#DEE7A4','#E5ECB8','#ECF1CB','#F2F6DD','#F8FAEF'];
-		var value2color5 = ['#8b8b8c','#98968f','#a49e8f','#aea48a','#b8a983','#c2ad78','#cbb06b','#d3b15c','#d9b24b','#e6b422'];
-		function fillGrid(num){
-			var i = 0;
-			for(i = 0;i < value2color3.length;i++){
-				if(num <= value2color[i][0]){
-					//var color = Cesium.Color.fromHsl(value2color[i][1]/360, 1, 0.8-i*0.02, 1);
-					var color = Cesium.Color.fromCssColorString(value2color5[i]);
-					//console.log(color);
-					return color.withAlpha(0.1*i);
-				}
-			}
-		}
-		function fillGrid2(num){
-			var i = 0;
-			 for(i = 0;i < value2color4.length;i++){
-				if(num <= value2color2[i]){
-					//var color = Cesium.Color.fromHsl(205/360, 0.61, 0.8-i*0.04, 1);
-					var color = Cesium.Color.fromCssColorString(value2color4[9-i]);
-					return color.withAlpha(0.1*i);
-				}
-			} 
-		}
-		function getcamera()
-		{
-			var camera = 
-			{destination:viewer.camera.position,
-			heading : viewer.camera.heading,
-			pitch : viewer.camera.pitch,
-			roll : viewer.camera.roll};
-			
-			return camera;
-		}
-	</script>
-	<!-- <script type="text/javascript" src="d3example.js" charset="utf-8"></script> -->
-	<!-- <script type="text/javascript" src="globe.js" charset="utf-8"></script> -->
+        </dl></li>
+      <li><b>Download Files</b>
+        <dl>
+          <dt>
+            <a href="data/shanghai.czml">Shanghai CZML</a>
+          </dt>
+		  <dd>The CZML file covers Shanghai and can be loaded into Cesium.</dd>
+		  <dt>
+            <a href="data/centre.czml">Central City CZML</a>
+          </dt>
+		  <dd>The CZML file covers the central city area of Shanghai and can be loaded into Cesium.</dd>
+        </dl></li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+      if (window.location.protocol === 'file:') {
+          document.body.innerHTML = ""
+          document.write('<p><b>This file must be hosted in a web server.</br>');
+          document.write('See our <a href="https://cesiumjs.org/2013/04/12/Cesium-up-and-running/">Getting Started</a> ');
+          document.write('tutorial for a step-by-step guide.</b></p>');
+      }
+  </script>
 </body>
 </html>
